@@ -1,0 +1,96 @@
+{ 
+	"topbio": {
+		"pic": "assets/photo.png",
+		"fullname": "Vlad Feninets",
+		"title": "front-end developer",
+		"links": [
+			{ "name": "LinkedIn", "targetBlank": true, "href": "https://www.linkedin.com/in/fnnzzz/", "val": "linkedin.com/in/fnnzzz" },
+			{ "name": "GitHub", "targetBlank": true, "href": "https://github.com/fnnzzz/", "val": "github.com/fnnzzz" },
+			{ "name": "Email", "href": "mailto:v.feninets@gmail.com", "val": "v.feninets@gmail.com" },
+			{ "name": "Skype", "href": "skype:vlad-josef?add", "val": "vlad-josef" }
+		]
+	},
+	"general-info": {
+		"blockname": "General Info",
+		"date-of-birth": { "key": "Date of birth", "val": "10 Nov 1994" },
+		"education": { 
+			"key": "Education", 
+			"val": "Donbas State Technical University (computer engineer, bachelor degree) [09.2012 — 06.2016]"
+		}
+	},
+	"skills": {
+		"blockname": "Skills",
+		"list": [
+			{ "name": "HTML5" },
+			{ "name": "CSS3" },
+			{ "name": "SVG" },
+			{ "name": "Git" },
+			{ "name": "Linux" },
+			{ 
+				"name": "Javascript [ES2016]", 
+				"descr": "For current moment develop Single Page Applications on React+Redux, handle it with the help of Webpack + Babel with configured Hot Module Replacement & Dynamic Routing. My boilerplate code on the GitHub is by the following link: <a href='https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate' target='_blank'>https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate</a> <br/><br/> For simple tasks & manipulations with DOM I use good old time-tested jQuery (or Zepto). <br/><br/> As a rule, all not SPA I develop with gulp. You can find my setting by the following link: <a href='https://github.com/fnnzzz/fnnzzz-gulp-config' target='blank'>https://github.com/fnnzzz/fnnzzz-gulp-config</a>). <br/><br/> Also, from time to time I develop different CLI with Node.js (npm packages) & simple back-end apps with Express js." 
+			},
+			{ 
+				"name": "SASS (CSS preprocessing)",
+				"descr": "I develop on SASS according to the BEM methodology (it refers only to the names of the classes). Besides that, I actively use Bourbon framework that contains a lot of useful mixins simplifying life. As a responsive network, I often use Neat from Bourbon’s developers."
+			},
+			{ 
+				"name": "Jade/Pug/Mustache/Handlebars", 
+				"descr": "Love, when HTML code looks cleaner & more readable."
+			},
+			{ 
+				"name": "MySQL",
+				"descr": "I have experience in websites development with individual structure of relational DB. Please find my diploma work by the following link: <a href='http://diplom-feninets.esy.es/index.php/requests' target='_blank'>http://diplom-feninets.esy.es/index.php/requests</a> All the DB is organized via relational connections. You can find the presentation to my diploma work by the following link: <a href='https://fnnzzz.github.io/diploma-presentation/' target='_blank'>https://fnnzzz.github.io/diploma-presentation/</a>"
+			},
+			{ 
+				"name": "NoSQL",
+				"descr": "I tried to use Elastic/MongoDB for pet-projects"
+			},
+			{ 
+				"name": "PHP",
+				"descr": "I had experience on websites development on native PHP, using different MVC frameworks (ex. Codelgniter), on WordPress etc."
+			},
+			{ 
+				"name": "Python",
+				"descr": "I often write simple scripts in Python. Also, I wrote several websites in Django. You can find one of them by the following link, I did front-end as well as back-end: <a href='http://guerlain.ua/'>http://guerlain.ua/</a>"
+			},
+			{ 
+				"name": "C#",
+				"descr": "During second & third years of studying at the university I was writing many desktop (WPF) and console apps"
+			},
+			{ 
+				"name": "Java",
+				"descr": "I have developed one desktop app & 2 apps for Android."
+			}
+		]
+	},
+	"work-experience": {
+		"blockname": "Work Experience",
+		"list": [
+			{
+				"name": "rabota.ua",
+				"start": "11/2016"
+			},
+			{
+				"name": "Pickoose.com",
+				"start": "09/2016",
+				"end": "11/2016"
+			},
+			{
+				"name": "Lazard Export",
+				"start": "04/2016",
+				"end": "09/2016"
+			},
+			{
+				"name": "ITCG",
+				"start": "06/2015",
+				"end": "04/2016"
+			},
+			{
+				"name": "Freelance",
+				"start": "2014",
+				"end": "2015"
+			}
+		]
+	}
+}
