@@ -28,15 +28,15 @@
 			{ "name": "Linux" },
 			{ 
 				"name": "Javascript [ES2016]", 
-				"descr": "For current moment develop Single Page Applications on React+Redux, handle it with the help of Webpack + Babel with configured Hot Module Replacement & Dynamic Routing. My boilerplate code on the GitHub is by the following link: <a href='https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate' target='_blank'>https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate</a> <br/><br/> For simple tasks & manipulations with DOM I use good old time-tested jQuery (or Zepto). <br/><br/> As a rule, all not SPA I develop with gulp. You can find my setting by the following link: <a href='https://github.com/fnnzzz/fnnzzz-gulp-config' target='blank'>https://github.com/fnnzzz/fnnzzz-gulp-config</a>). <br/><br/> Also, from time to time I develop different CLI with Node.js (npm packages) & simple back-end apps with Express js." 
+				"descr": "Nowadays I work actively with vanilla ES2016, Knockout, React/Redux. I write a lot of pet-projects on React/Redux. <br /><br /> As many developers I have my own boilerplate for Webpack+Babel+React+Redux. You can find it by the following link: <br /><a href='https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate' target='_blank'>https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate</a> <br /><br /> For non-SPA apps I use gulp & my setup for him, that had repeatedly rescued me. You can find it by the following link: <br /><a href='https://github.com/fnnzzz/fnnzzz-gulp-config' target='blank'>https://github.com/fnnzzz/fnnzzz-gulp-config</a>" 
 			},
 			{ 
 				"name": "SASS (CSS preprocessing)",
-				"descr": "I develop on SASS according to the BEM methodology (it refers only to the names of the classes). Besides that, I actively use Bourbon framework that contains a lot of useful mixins simplifying life. As a responsive network, I often use Neat from Bourbon’s developers."
+				"descr": "I develop on SASS according to the BEM methodology (it refers only to the names of the classes). Besides that, I actively use Bourbon framework that contains a lot of useful mixins simplifying life. As a responsive grid, I often use Neat from Bourbon’s developers."
 			},
 			{ 
 				"name": "Jade/Pug/Mustache/Handlebars", 
-				"descr": "Love, when HTML code looks cleaner & more readable."
+				"descr": "Love when HTML code looks cleaner & more readable."
 			},
 			{ 
 				"name": "MySQL",
@@ -70,6 +70,10 @@
 			{
 				"name": "rabota.ua",
 				"start": "11/2016"
+			},
+			{
+				"name": "ITVDN [author of video course - https://goo.gl/jvHRq8]",
+				"start": "03/2017"
 			},
 			{
 				"name": "Pickoose.com",
