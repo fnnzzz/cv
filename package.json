@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --colors --progress",
+    "start": "webpack-dev-server --colors --progress",
     "dist": "webpack -p",
     "deploy": "npm run dist && gh-pages -d dist"
   },

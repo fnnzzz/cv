@@ -11,16 +11,16 @@ import './assets/images/bg.jpg'
 import './assets/images/photo.png'
 
 const renderApp = Component => {
-	render(
-		<AppContainer>
-			<CvContainer />
-		</AppContainer>,
-		document.querySelector('#mount_place')
-	)
+    render(
+        <AppContainer>
+            <CvContainer />
+        </AppContainer>,
+        document.querySelector('#mount_place')
+    )
 }
 
 renderApp(CvContainer)
 
 if (module.hot) {
-	module.hot.accept('./components/cv-container', () => { renderApp(CvContainer) })
+    module.hot.accept('./components/cv-container', () => { renderApp(CvContainer) })
 }
