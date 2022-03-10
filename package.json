@@ -1,37 +1,41 @@
 {
-  "name": "cv-page",
-  "version": "1.0.0",
-  "description": "cv-page",
-  "main": "index.js",
+  "name": "cv",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --colors --progress",
-    "dist": "webpack -p",
-    "deploy": "npm run dist && gh-pages -d dist"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "deploy": "gh-pages -d dist"
   },
-  "author": "Vlad Feninets <v.feninets@gmail.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
-    "babel-preset-es2015": "^6.22.0",
-    "babel-preset-react": "^6.22.0",
-    "babel-preset-stage-0": "^6.22.0",
-    "css-loader": "^0.26.1",
-    "file-loader": "^0.9.0",
-    "gh-pages": "^1.0.0",
-    "html-webpack-plugin": "^2.26.0",
-    "node-sass": "^4.3.0",
-    "postcss-loader": "^1.3.3",
-    "react-hot-loader": "^3.0.0-beta.6",
-    "sass-loader": "^4.1.1",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.3.0"
-  },
+  "private": true,
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "@angular/animations": "~13.2.0",
+    "@angular/common": "~13.2.0",
+    "@angular/compiler": "~13.2.0",
+    "@angular/core": "~13.2.0",
+    "@angular/forms": "~13.2.0",
+    "@angular/platform-browser": "~13.2.0",
+    "@angular/platform-browser-dynamic": "~13.2.0",
+    "@angular/router": "~13.2.0",
+    "gh-pages": "^3.2.3",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~13.2.6",
+    "@angular/cli": "~13.2.6",
+    "@angular/compiler-cli": "~13.2.0",
+    "@types/jasmine": "~3.10.0",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~4.0.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.1.0",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "~1.7.0",
+    "typescript": "~4.5.2"
   }
 }

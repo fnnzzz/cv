@@ -1,0 +1,10 @@
+<article class="article-block">
+    <h4 class="article-title">{{data.blockname}}:</h4>
+
+    <ul class="article-list">
+        <li *ngFor="let skill of data.list" [class.-detailed]="skill.descr">
+            {{ skill.name}}
+            <p *ngIf="skill.descr" [innerHTML]="skill.descr"></p>
+        </li>
+    </ul>
+</article>

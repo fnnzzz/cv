@@ -1,0 +1,17 @@
+<article class="article-block">
+    <h4 class="article-title">{{data.blockname}}:</h4>
+
+    <ul class="article-list">
+        <li *ngFor="let w of data.list" [class.-detailed]="w.descr">
+            {{w.name}} ({{w.start}} - 
+            
+            <span *ngIf="!w.end" class="-now" title="up until today">now</span>
+            <span *ngIf="w.end">{{ w.end }}</span>)
+            <p [innerHTML]="w.descr"></p>
+        </li>
+        <!-- {d.list.map(w => <li key={w.name} class={w.descr ? '-detailed' : ''}>
+            {w.name} ({w.start} — <EndOrNowComponent date={w.end} />)
+            <p dangerouslySetInnerHTML={{__html: w.descr}} />
+        </li>)} -->
+    </ul>
+</article>

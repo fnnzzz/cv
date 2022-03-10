@@ -1,0 +1,111 @@
+{ 
+  "topbio": {
+    "pic": "assets/images/photo.png",
+    "fullname": "Vlad Feninets",
+    "title": "front-end engineer",
+    "links": [
+      { "name": "LinkedIn", "targetBlank": true, "href": "https://www.linkedin.com/in/fnnzzz/", "val": "https://linkedin.com/in/fnnzzz" },
+      { "name": "GitHub", "targetBlank": true, "href": "https://github.com/fnnzzz/", "val": "https://github.com/fnnzzz" },
+      { "name": "Email", "href": "mailto:v.feninets@gmail.com", "val": "v.feninets@gmail.com" },
+      { "name": "Telegram", "targetBlank": true, "href": "https://telegram.me/fnnzzz", "val": "@fnnzzz" }
+    ]
+  },
+  "general-info": {
+    "blockname": "General Info",
+    "date-of-birth": { "key": "Date of birth", "val": "10 Nov 1994" },
+    "education": {
+      "key": "Education",
+      "val": "Donbas State Technical University (computer engineer, bachelor degree) [09.2012 — 06.2016]"
+    }
+  },
+  "skills": {
+    "blockname": "Skills",
+    "list": [
+      { "name": "HTML5" },
+      { "name": "CSS3" },
+      { "name": "SVG" },
+      { "name": "Git" },
+      { "name": "Linux" },
+      {
+        "name": "Javascript [ESNext]",
+        "descr": "Nowadays I work actively with vanilla ES2016, Knockout, React/Redux. I write a lot of pet-projects on React/Redux. <br /><br /> As many developers I have my own boilerplate for Webpack+Babel+React+Redux. You can find it by the following link: <br /><a href='https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate' target='_blank'>https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate</a> <br /><br /> For non-SPA apps I use gulp & my setup for him, that had repeatedly rescued me. You can find it by the following link: <br /><a href='https://github.com/fnnzzz/fnnzzz-gulp-config' target='blank'>https://github.com/fnnzzz/fnnzzz-gulp-config</a><br/><br/>Since recent times, I have been developing on Angular 6 for commercial development"
+      },
+      {
+        "name": "SASS (CSS preprocessing)",
+        "descr": "I develop on SASS according to the BEM methodology (it refers only to the names of the classes). Besides that, I actively use Bourbon framework that contains a lot of useful mixins simplifying life. As a responsive grid, I often use Neat from Bourbon’s developers.<br/><br/>I recently use css-modules & enjoy life"
+      },
+      {
+        "name": "Jade/Pug/Mustache/Handlebars",
+        "descr": "Love when HTML code looks cleaner & more readable."
+      },
+      {
+        "name": "CI/CD",
+        "descr": "Worked with docker + k8s, jenkins pipelines, bitbucket pipelines."
+      },
+      {
+        "name": "MySQL",
+        "descr": "I have experience in websites development with individual structure of relational DB. Please find my diploma work by the following link: <a href='http://diplom-feninets.esy.es/index.php/requests' target='_blank'>http://diplom-feninets.esy.es/index.php/requests</a> All the DB is organized via relational connections. You can find the presentation to my diploma work by the following link: <a href='https://fnnzzz.github.io/diploma-presentation/' target='_blank'>https://fnnzzz.github.io/diploma-presentation/</a>"
+      },
+      {
+        "name": "NoSQL",
+        "descr": "I tried to use Elastic/MongoDB for pet-projects"
+      },
+      {
+        "name": "PHP",
+        "descr": "I had experience on websites development on native PHP, using different MVC frameworks (ex. Codelgniter), on WordPress etc."
+      },
+      {
+        "name": "Python",
+        "descr": "I often write simple scripts in Python. Also, I wrote several websites in Django. You can find one of them by the following link, I did front-end as well as back-end: <a href='http://guerlain.ua/'>http://guerlain.ua/</a>"
+      },
+      {
+        "name": "C#",
+        "descr": "During second & third years of studying at the university I was writing many desktop (WPF) and console apps"
+      },
+      {
+        "name": "Java",
+        "descr": "I have developed one desktop app & 2 apps for Android."
+      }
+    ]
+  },
+  "work-experience": {
+    "blockname": "Work Experience",
+    "list": [
+      {
+        "name": "robota.ua",
+        "start": "11/2016",
+        "descr": "For current moment I have been working at jobseeker-team. I have developed a lot on vanilla-js, implement react+redux for new features (to tell the truth we have more preact in production). As well all company has certain amount of legacy, that step by step is re-implementing on React, we have also several big projects that require support on Knockout. We have implemented big project totally on Angular 5 in January 2018 - <a href='https://m.rabota.ua' target='_blank'>m.rabota.ua</a> and this is interesting experience, as with ng+rx, so and high-load things, similar to docker & k8s."
+      },
+      {
+        "name": "ITVDN [part-time]",
+        "start": "03/2017",
+        "end": "07/2017",
+        "descr": "In parallel with the main job (I mean part-time) I was involved with the React+Redux courses development on ITVDN platform. As for me, it was very interesting & challenging experience, but to repeat something like this I am not going to in the nearest future :) <br/> You can watch by the following link - <a href='https://itvdn.com/ru/video/react_adv' target='_blank'>ITVDN</a> and <a href='https://www.youtube.com/playlist?list=PLvItDmb0sZw9CbcmbrRsdWSxPcr3qi4eZ' target='_blank'>YouTube (promo cropped video)</a>"
+      },
+      {
+        "name": "pickoose.com",
+        "start": "09/2016",
+        "end": "11/2016",
+        "descr": "Startup, I had come there to re-develop the existing front-end from angular v1 to React + Redux + Restful eco-system. I got interesting experience that was connected with the internal messenger development during almost 2 months. It was fun with debounce/throttling for mark viewed messages, keep unsent messages in LocalStorage etc. Unfortunatelly, startup did not receive investments in 2 months & that is why I had to look for a new job."
+      },
+      {
+        "name": "Lazard Export",
+        "start": "04/2016",
+        "end": "09/2016",
+        "descr": "Here I had come <s>to God</s> to Webpack + React + Redux. I had develoved dashboard to IoT project with the help of which the control had been monitored (device was on raspberry pi, leaded with the help of RESTful)"
+      },
+      {
+        "name": "ITCG",
+        "start": "06/2015",
+        "end": "04/2016",
+        "descr": "Development of promo and langing pages. Mostly they were vanilla JS & a lot of jQuery-spagetti. Althought had to be fullstack & implemented the whole project from ground zero (back-end + front-end). Back-end, by the way, was implemented in Python (django). On top of all that, this project is still in production: <a href='#'>http://guerlain.ua/</a>"
+      },
+      {
+        "name": "Freelance",
+        "start": "2014",
+        "end": "2015",
+        "descr": "We had two bags of wordpress, seventy-five pellets of free html5 templates... <br /> Not that we needed all that for the freelance, but once you get locked into a serious web-sites collection, the tendency is to push it as far as you can ©"
+      }
+    ]
+  }
+}

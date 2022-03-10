@@ -1,0 +1,14 @@
+<article class="top-bio__wrap">
+    <img class="top-bio__photo" src={{data.pic}} alt={{data.fullname}} title="Hello! It's me" />
+
+    <div class="top-bio__rightside">
+        <h2 class="top-bio__fullname">{{data.fullname}}</h2>
+        <p class="top-bio__title">{{data.title}}</p>
+
+        <ul class="top-bio__links">
+            <li *ngFor="let l of data.links">
+                {{l.name}}: <a href={{l.href}} [target]="l.targetBlank ? '_blank' : '_self'">{{l.val}}</a>
+            </li>
+        </ul>
+    </div>
+</article>
