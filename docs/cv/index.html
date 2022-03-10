@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>feninets.getCv()</title>
+
+  <link rel="preload" href="assets/images/bg.jpg" as="image">
+  <link rel="preload" href="assets/images/photo.png" as="image">
+
+  <style type="text/css" media="screen">
+    #loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+    }
+  </style>
+
+
+<style>@import"https://fonts.googleapis.com/css?family=Lato";@charset "UTF-8";*{font-family:Lato,sans-serif}body{color:#444;padding:0;margin:0;background:#ccc;background-size:cover;background-attachment:fixed}</style><link rel="stylesheet" href="styles.997037a939ae119f.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.997037a939ae119f.css"></noscript></head>
+
+<body style="background-image: url(assets/images/bg.jpg)">
+  <div id="loader"></div>
+  <app-root></app-root>
+<script src="runtime.f4921f148c45a8e7.js" type="module"></script><script src="polyfills.8ff369f7fc13e916.js" type="module"></script><script src="main.f79551d6c273907d.js" type="module"></script>
+
+<script>
+  const fadeOut = (el) => {
+
+    el.style.opacity = 1;
+
+    (function fade() {
+      if ((el.style.opacity -= 0.04) < 0) {
+        el.style.display = 'none'
+      } else {
+        requestAnimationFrame(fade)
+      }
+    })()
+
+  }
+
+  setTimeout(() => fadeOut(document.querySelector('#loader')), 200)
+</script>
+
+
+</body></html>
