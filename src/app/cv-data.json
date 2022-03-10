@@ -1,6 +1,6 @@
 { 
   "topbio": {
-    "pic": "assets/images/photo.png",
+    "pic": "assets/images/avatar.jpg",
     "fullname": "Vlad Feninets",
     "title": "front-end engineer",
     "links": [
@@ -15,32 +15,52 @@
     "date-of-birth": { "key": "Date of birth", "val": "10 Nov 1994" },
     "education": {
       "key": "Education",
-      "val": "Donbas State Technical University (computer engineer, bachelor degree) [09.2012 — 06.2016]"
+      "val": "[09.2012 — 06.2016] Donbas State Technical University (computer engineer, bachelor degree)"
     }
   },
   "skills": {
     "blockname": "Skills",
     "list": [
-      { "name": "HTML5" },
-      { "name": "CSS3" },
-      { "name": "SVG" },
+      { 
+        "name": "Javascript [ESnext]",
+        "descr": "I know difference between `apply` and `call`<br/>I know why `typeof [] === \"object\"`,<br/>how works event loop, and how to avoid mutation of a data in JS"
+      },
+      { "name": "Typescript",
+        "descr": "Using angular for several years I became a fan of a strictly typed code, I can use the generics and I know advanced tricks like type guards / inferring types / conditional types and <a href=\"https://youtu.be/ROxTGcqj01I?t=4024\">etc</a>"
+      },
+      {
+        "name": "RxJS",
+        "descr": "The best way to organize asynchronous things<br/>I know a difference between switchMap and mergeMap and cold observable vs hot observable"
+      },
+      {
+        "name": "Angular 13"
+      },
+      { "name": "HTML5 + CSS3 + SVG" },
       { "name": "Git" },
-      { "name": "Linux" },
-      {
-        "name": "Javascript [ESNext]",
-        "descr": "Nowadays I work actively with vanilla ES2016, Knockout, React/Redux. I write a lot of pet-projects on React/Redux. <br /><br /> As many developers I have my own boilerplate for Webpack+Babel+React+Redux. You can find it by the following link: <br /><a href='https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate' target='_blank'>https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate</a> <br /><br /> For non-SPA apps I use gulp & my setup for him, that had repeatedly rescued me. You can find it by the following link: <br /><a href='https://github.com/fnnzzz/fnnzzz-gulp-config' target='blank'>https://github.com/fnnzzz/fnnzzz-gulp-config</a><br/><br/>Since recent times, I have been developing on Angular 6 for commercial development"
+      { "name": "Linux",
+        "descr": "I know how to use grep, I can write a simple bash-script, I can monitore instance via top/htop"
       },
       {
-        "name": "SASS (CSS preprocessing)",
-        "descr": "I develop on SASS according to the BEM methodology (it refers only to the names of the classes). Besides that, I actively use Bourbon framework that contains a lot of useful mixins simplifying life. As a responsive grid, I often use Neat from Bourbon’s developers.<br/><br/>I recently use css-modules & enjoy life"
+        "name": "node.js",
+        "descr": "Often use for an automation some things with files, utility purposes or some global refactoring (<a href='https://github.com/dsherret/ts-morph' target='_blank'>ts-morph</a>), I have experience with koa+mongoose in own pet-project"
       },
       {
-        "name": "Jade/Pug/Mustache/Handlebars",
-        "descr": "Love when HTML code looks cleaner & more readable."
+        "name": "SASS/tailwindcss"
+      },
+      {
+        "name": "Jade/Pug/Mustache/Handlebars"
+      },
+      {
+        "name": "Docker",
+        "descr": "Often use, both for work and personal purposes"
+      },
+      {
+        "name": "k8s",
+        "descr": "I know general concepts, but rarely used in practice."
       },
       {
         "name": "CI/CD",
-        "descr": "Worked with docker + k8s, jenkins pipelines, bitbucket pipelines."
+        "descr": "I worked with teamcity, independently set up a complex CI/CD at robota.ua for build a large monorepo with cache, incremental build etc"
       },
       {
         "name": "MySQL",
@@ -72,9 +92,20 @@
     "blockname": "Work Experience",
     "list": [
       {
-        "name": "robota.ua",
+        "name": "ducky app",
+        "start": "02/2022"
+      },
+      {
+        "name": "robota.ua: front-end tech lead",
+        "start": "01/2021",
+        "end": "02/2022",
+        "descr": "In this role I focused on complex problems, for example:<br><br>– slow builds: I implemented a non-trivial cache system for CI/CD on github actions, updated our stack to modern and fast webpack5, implemented some tricks for speed-up in dependencies via <a href='https://www.npmjs.com/package/patch-package'>patch-package</a><br>– improved performance (core web-vitals: LCP, TTFB, FID)<br/>– improved developer experience for engineers, for example: some routine things, like generate code from schema, become easier<br/>– implemented typesript's strict mode, spellcheckers and a lot of linters to avoid mistakes of human nature.<br><br>Besides technical things I did a mentoring, recruitment and various events to create a good atmosphere in the direction of the front-end (for example I implemented a bonus system based on code review and assistance to other)"
+      },
+      {
+        "name": "robota.ua: front-end engineer in a jobseeker team",
         "start": "11/2016",
-        "descr": "For current moment I have been working at jobseeker-team. I have developed a lot on vanilla-js, implement react+redux for new features (to tell the truth we have more preact in production). As well all company has certain amount of legacy, that step by step is re-implementing on React, we have also several big projects that require support on Knockout. We have implemented big project totally on Angular 5 in January 2018 - <a href='https://m.rabota.ua' target='_blank'>m.rabota.ua</a> and this is interesting experience, as with ng+rx, so and high-load things, similar to docker & k8s."
+        "end": "01/2021",
+        "descr": "Worked in jobseeker-team. During this time I managed to develop using different frameworks and approaches: knockout, react+redux, angular. Last years robota.ua finally settled on the choice: angular + graphql and we increased our expertise in this direction"
       },
       {
         "name": "ITVDN [part-time]",
