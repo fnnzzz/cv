@@ -13,12 +13,13 @@
   "general-info": {
     "blockname": "General Info",
     "city": {
-      "key": "City",
-      "val": "Kyiv, temporarily Rivne"
+      "key": "🏙️",
+      "val": "Kyiv (since 2015), temporarily Rivne (since ⛴ go 🤬 yourself)"
     },
-    "date-of-birth": { "key": "Date of birth", "val": "10 Nov 1994" },
+    "date-of-birth": { "key": "🎂", "val": "10 Nov 1994" },
+    "english": { "key": "🇬🇧", "val": "Intermediate" },
     "education": {
-      "key": "Education",
+      "key": "🎓",
       "val": "[09.2012 — 06.2016] Donbas State Technical University (computer engineer, bachelor degree)"
     }
   },
@@ -26,69 +27,74 @@
     "blockname": "Skills",
     "list": [
       { 
-        "name": "Javascript [ESnext]",
-        "descr": "I know difference between `apply` and `call`<br/>I know why `typeof [] === \"object\"`,<br/>how works event loop, and how to avoid mutation of a data in JS"
+        "name": "Lead skills",
+        "descr": "In the tech lead position I did:<br><ul class='inner-list'><li>mentoring engineers</li> <li>one-to-one sessions</li> <li>code review</li> <li>architecture design sessions</li> <li>troubleshooting and helping</li> <li>interviews (recruitment)</li> <li>implemented a bonus system</li></ul>"
+      },
+      { 
+        "name": "ESnext / JS",
+        "descr": "I know the difference between `call` and `apply`, <br/>I know why `typeof [] === \"object\"` and why you have to be careful with method `.sort()`.   <br/>I can implement a polyfill for `fetch` or add a new method `.any()` for all promises in your code.   <br/>I know how works event loop in JS.<br/>Really like FRP."
       },
       { "name": "Typescript",
-        "descr": "Using angular for several years I became a fan of a strictly typed code, I can use the generics and I know advanced tricks like type guards / inferring types / conditional types and <a href=\"https://youtu.be/ROxTGcqj01I?t=4024\">etc</a>"
+        "descr": "I've become a fan of strictly typed code with Angular.          <br/>Generics is my love.          <br/>I often use some advanced TS tricks like type guards, conditional types, inferring in my projects, but given the fact that TS is a \"Turing-complete\" language, you can do a lot of other interesting things."
       },
       {
         "name": "RxJS",
-        "descr": "The best way to organize asynchronous things<br/>I know a difference between switchMap and mergeMap and cold observable vs hot observable"
+        "descr": "When you come to RxJS - your mind is blown. <br/>But after that, you can't imagine a better tool to organize async staff. <br/>I know the difference between `switchMap` and `mergeMap` when to use cold observables instead of hot (or vice versa), and how `shareReplay()` will help you with this."
       },
       {
-        "name": "Angular 13"
+        "name": "Angular 13+",
+        "descr": "A lot of time I've been involved in performance issues in angular, so I know how to tame `zone.js` or turn it off at all (but it's more complicated). <br/>Very much looking forward to v14 with strictly typed forms and optional modules (SCAM-like). <br/>Angular stands out with its DI/IoC, it's a very powerful tool."
       },
-      { "name": "HTML5 + CSS3 + SVG" },
-      { "name": "Git" },
+      { 
+        "name": "HTML5 + CSS3 + SVG",
+        "descr": "div[style*=\"height: 70px\"] { height: 40px !important; }"
+      },
+      { 
+        "name": "Git",
+        "descr": "Often use interactive rebase.<br/>Once in my life, I used `bisect' and it helped."
+      },
       { "name": "Linux",
-        "descr": "I know how to use grep, I can write a simple bash-script, I can monitore instance via top/htop"
+        "descr": "I know how to use grep, I can write a simple bash script, I can monitor an instance via top/htop"
       },
       {
-        "name": "node.js",
-        "descr": "Often use for an automation some things with files, utility purposes or some global refactoring (<a href='https://github.com/dsherret/ts-morph' target='_blank'>ts-morph</a>), I have experience with koa+mongoose in own pet-project"
+        "name": "Node.js",
+        "descr": "I have experience with koa+mongoose in my own pet project. <br>I also often inspect some bundler's stuff in node_modules for demystifying how it works. <br>Very often used node for different utility purposes, like iterating, creating and modifying files, some kind of generators, some global refactoring (<a href='https://github.com/dsherret/ts-morph' target='_blank'>ts-morph</a>), staff improved DX, etc. <br>Node often is very useful"
       },
       {
-        "name": "SASS/tailwindcss"
+        "name": "GraphQL/Apollo",
+        "descr": "Used graphql federation with apollo-client on a front-end as a primary BFF in robota.ua"
       },
       {
-        "name": "Jade/Pug/Mustache/Handlebars"
+        "name": "SASS/postcss/tailwindcss",
+        "descr": "tailwind is my favorite one."
       },
       {
         "name": "Docker",
-        "descr": "Often use, both for work and personal purposes"
+        "descr": "Often use for work and/or personal purposes."
       },
       {
         "name": "k8s",
-        "descr": "I know general concepts, but rarely used in practice."
+        "descr": "I know general concepts of k8s, but in practice used rarely."
       },
       {
         "name": "CI/CD",
-        "descr": "I worked with teamcity, independently set up a complex CI/CD at robota.ua for build a large monorepo with cache, incremental build etc"
+        "descr": "Had experience with transferring CI of our frontend from TeamCity to <br/>Github Actions and set up then (very interesting activity to the honest)."
       },
       {
         "name": "MySQL",
-        "descr": "I have experience in websites development with individual structure of relational DB. Please find my diploma work by the following link: <a href='http://diplom-feninets.esy.es/index.php/requests' target='_blank'>http://diplom-feninets.esy.es/index.php/requests</a> All the DB is organized via relational connections. You can find the presentation to my diploma work by the following link: <a href='https://fnnzzz.github.io/diploma-presentation/' target='_blank'>https://fnnzzz.github.io/diploma-presentation/</a>"
+        "descr": "I had experience with MySQL during my students' years.<br>I've developed a structure of DB as a part of my <a href=\"https://fnnzzz.github.io/diploma-presentation/\" target=\"_blank\"> diploma work</a>"
       },
       {
         "name": "NoSQL",
-        "descr": "I tried to use Elastic/MongoDB for pet-projects"
+        "descr": "I have pet projects that used MongoDB (with koa and mongoose)"
       },
       {
         "name": "PHP",
-        "descr": "I had experience on websites development on native PHP, using different MVC frameworks (ex. Codelgniter), on WordPress etc."
+        "descr": "A long time ago I've used PHP for developing admin panels, websites, and customization of WordPress."
       },
       {
-        "name": "Python",
-        "descr": "I often write simple scripts in Python. Also, I wrote several websites in Django. You can find one of them by the following link, I did front-end as well as back-end: <a href='http://guerlain.ua/'>http://guerlain.ua/</a>"
-      },
-      {
-        "name": "C#",
-        "descr": "During second & third years of studying at the university I was writing many desktop (WPF) and console apps"
-      },
-      {
-        "name": "Java",
-        "descr": "I have developed one desktop app & 2 apps for Android."
+        "name": "Python, C#, Java",
+        "descr": "Wrote something"
       }
     ]
   },
@@ -97,7 +103,9 @@
     "list": [
       {
         "name": "ducky app",
-        "start": "02/2022"
+        "start": "02/2022",
+        "end": "04/2022",
+        "descr": "A promising startup that unfortunately stopped funding because of the war"
       },
       {
         "name": "robota.ua: front-end tech lead",
@@ -109,31 +117,31 @@
         "name": "robota.ua: front-end engineer in a jobseeker team",
         "start": "11/2016",
         "end": "01/2021",
-        "descr": "Worked in jobseeker-team. During this time I managed to develop using different frameworks and approaches: knockout, react+redux, angular. Last years robota.ua finally settled on the choice: angular + graphql and we increased our expertise in this direction"
+        "descr": "Worked in a jobseeker team. During this time I managed to develop using different frameworks and approaches: knockout, react+redux, angular. Last 3 years robota.ua finally settled on the choice: angular + graphql and we increased our expertise in this direction"
       },
       {
         "name": "ITVDN [part-time]",
         "start": "03/2017",
         "end": "07/2017",
-        "descr": "In parallel with the main job (I mean part-time) I was involved with the React+Redux courses development on ITVDN platform. As for me, it was very interesting & challenging experience, but to repeat something like this I am not going to in the nearest future :) <br/> You can watch by the following link - <a href='https://itvdn.com/ru/video/react_adv' target='_blank'>ITVDN</a> and <a href='https://www.youtube.com/playlist?list=PLvItDmb0sZw9CbcmbrRsdWSxPcr3qi4eZ' target='_blank'>YouTube (promo cropped video)</a>"
+        "descr": "In parallel with the main job (I mean part-time), I was involved with the development of the React+Redux course on ITVDN platform. As for me, it was very interesting & challenging experience, but to repeat something like this I am not going to in the nearest future :) <br/> You can watch by the following link - <a href='https://itvdn.com/ru/video/react_adv' target='_blank'>ITVDN</a> and <a href='https://www.youtube.com/playlist?list=PLvItDmb0sZw9CbcmbrRsdWSxPcr3qi4eZ' target='_blank'>YouTube (promo cropped video)</a>"
       },
       {
         "name": "pickoose.com",
         "start": "09/2016",
         "end": "11/2016",
-        "descr": "Startup, I had come there to re-develop the existing front-end from angular v1 to React + Redux + Restful eco-system. I got interesting experience that was connected with the internal messenger development during almost 2 months. It was fun with debounce/throttling for mark viewed messages, keep unsent messages in LocalStorage etc. Unfortunatelly, startup did not receive investments in 2 months & that is why I had to look for a new job."
+        "descr": "The startup, I had come there to re-develop the existing front-end from angular v1 to React + Redux + Restful eco-system. I got an interesting experience with developing an internal messenger. Unfortunately, the startup did not receive investments and I had to look for a job again."
       },
       {
         "name": "Lazard Export",
         "start": "04/2016",
         "end": "09/2016",
-        "descr": "Here I had come <s>to God</s> to Webpack + React + Redux. I had develoved dashboard to IoT project with the help of which the control had been monitored (device was on raspberry pi, leaded with the help of RESTful)"
+        "descr": "There is my first encounter with the stack React + Redux + Webpack (it was a time when you had to set it up yourself).<br>I've been doing a dashboard for an IoT project. It was something like a smart lock, where you can unlock the door by credit card and manage access in the dashboard."
       },
       {
         "name": "ITCG",
         "start": "06/2015",
         "end": "04/2016",
-        "descr": "Development of promo and langing pages. Mostly they were vanilla JS & a lot of jQuery-spagetti. Althought had to be fullstack & implemented the whole project from ground zero (back-end + front-end). Back-end, by the way, was implemented in Python (django). On top of all that, this project is still in production: <a href='#'>http://guerlain.ua/</a>"
+        "descr": "Development of promo and landing pages. Mostly they were vanilla JS & a lot of jQuery-like. I had experience in the role of full-stack for one of the project - Guerlain, I've implemented the whole project from ground zero (back-end and front-end) using python (Django)."
       },
       {
         "name": "Freelance",
