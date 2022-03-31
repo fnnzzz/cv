@@ -58,7 +58,7 @@
       },
       {
         "name": "Node.js",
-        "descr": "I have experience with koa+mongoose in my own pet project. <br>I also often inspect some bundler's stuff in node_modules for demystifying how it works. <br>Very often used node for different utility purposes, like iterating, creating and modifying files, some kind of generators, some global refactoring (<a href='https://github.com/dsherret/ts-morph' target='_blank'>ts-morph</a>), stuff improved DX, etc. <br>Node often is very useful"
+        "descr": "I have experience with koa+mongoose in my own pet project. <br>I also often inspect some bundler's stuff in node_modules to demystifying how it works. <br>Very often used node for different utility purposes, like iterating, creating and modifying files, some kind of generators, some global refactoring (<a href='https://github.com/dsherret/ts-morph' target='_blank'>ts-morph</a>), stuff improved DX, etc. <br>Node often is very useful"
       },
       {
         "name": "GraphQL/Apollo",
