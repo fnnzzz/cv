@@ -35,11 +35,11 @@
         "descr": "I know the difference between `call` and `apply`, <br/>I know why `typeof [] === \"object\"` and why you have to be careful with method `.sort()`.   <br/>I can implement a polyfill for `fetch` or add a new method `.any()` for all promises in your code.   <br/>I know how works event loop in JS.<br/>Really like FRP."
       },
       { "name": "Typescript",
-        "descr": "I've become a fan of strictly typed code with Angular.          <br/>Generics is my love.          <br/>I often use some advanced TS tricks like type guards, conditional types, inferring in my projects, but given the fact that TS is a \"Turing-complete\" language, you can do a lot of other interesting things."
+        "descr": "I've become a fan of strictly typed code with Angular.          <br/>Generics are my love.          <br/>I often use some advanced TS tricks like type guards, conditional types, inferring in my projects, but given the fact that TS is a \"Turing-complete\" language, you can do a lot of other interesting things."
       },
       {
         "name": "RxJS",
-        "descr": "When you come to RxJS - your mind is blown. <br/>But after that, you can't imagine a better tool to organize async staff. <br/>I know the difference between `switchMap` and `mergeMap` when to use cold observables instead of hot (or vice versa), and how `shareReplay()` will help you with this."
+        "descr": "When you come to RxJS - your mind is blown. <br/>But after that, you can't imagine a better tool to organize async stuff. <br/>I know the difference between `switchMap` and `mergeMap` when to use cold observables instead of hot (or vice versa), and how `shareReplay()` will help you with this."
       },
       {
         "name": "Angular 13+",
@@ -58,7 +58,7 @@
       },
       {
         "name": "Node.js",
-        "descr": "I have experience with koa+mongoose in my own pet project. <br>I also often inspect some bundler's stuff in node_modules for demystifying how it works. <br>Very often used node for different utility purposes, like iterating, creating and modifying files, some kind of generators, some global refactoring (<a href='https://github.com/dsherret/ts-morph' target='_blank'>ts-morph</a>), staff improved DX, etc. <br>Node often is very useful"
+        "descr": "I have experience with koa+mongoose in my own pet project. <br>I also often inspect some bundler's stuff in node_modules for demystifying how it works. <br>Very often used node for different utility purposes, like iterating, creating and modifying files, some kind of generators, some global refactoring (<a href='https://github.com/dsherret/ts-morph' target='_blank'>ts-morph</a>), stuff improved DX, etc. <br>Node often is very useful"
       },
       {
         "name": "GraphQL/Apollo",
