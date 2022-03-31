@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 $tablet_bp: 970px;
 
 
 * {
-    font-family: 'Lato', sans-serif
+    font-family: 'Montserrat', sans-serif
 }
 
 body {
@@ -151,7 +151,7 @@ ul {
 }
 
 .article-list {
-    & li {
+    & > li {
         margin-left: 40px;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -182,4 +182,10 @@ ul {
             cursor: help;
         }
     }
+}
+
+.inner-list {
+    list-style: disc;
+    list-style-position: inside; 
+    padding-left: 10px
 }
