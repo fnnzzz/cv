@@ -32,18 +32,22 @@
       },
       { 
         "name": "ESnext / JS",
-        "descr": "I know the difference between `call` and `apply`, <br/>I know why `typeof [] === \"object\"` and why you have to be careful with method `.sort()`.   <br/>I can implement a polyfill for `fetch` or add a new method `.any()` for all promises in your code.   <br/>I know how works event loop in JS.<br/>Really like FRP."
+        "descr": "I know the difference between `call` and `apply`, <br/>I know why `typeof [] === \"object\"` and why you have to be careful with a method `.sort()`.   <br/>I can implement a polyfill for `fetch` or add a new method `.any()` for all promises in your code.   <br/>I know how works event loop in JS.<br/>Really like FRP."
       },
       { "name": "Typescript",
         "descr": "I've become a fan of strictly typed code with Angular.          <br/>Generics are my love.          <br/>I often use some advanced TS tricks like type guards, conditional types, inferring in my projects, but given the fact that TS is a \"Turing-complete\" language, you can do a lot of other interesting things."
       },
       {
         "name": "RxJS",
-        "descr": "When you come to RxJS - your mind is blown. <br/>But after that, you can't imagine a better tool to organize async stuff. <br/>I know the difference between `switchMap` and `mergeMap` when to use cold observables instead of hot (or vice versa), and how `shareReplay()` will help you with this."
+        "descr": "When you come to RxJS - your mind is blown. <br/>But after that, you can't imagine a better tool to organize async stuff. <br/>I know the difference between `switchMap` and `mergeMap`, when to use cold observables instead of hot (or vice versa), and how `shareReplay()` will help you with this."
       },
       {
         "name": "Angular 13+",
-        "descr": "A lot of time I've been involved in performance issues in angular, so I know how to tame `zone.js` or turn it off at all (but it's more complicated). <br/>Very much looking forward to v14 with strictly typed forms and optional modules (SCAM-like). <br/>Angular stands out with its DI/IoC, it's a very powerful tool."
+        "descr": "A lot of time I've been involved in performance issues in angular, so I know how to tame `zone.js` or turn it off at all (but it's more complicated). <br/>I know why exists `@Inject` and `@SkipSelf` and I've implemented own modules with `forRoot(...)`<br/>Very much looking forward to v14 with strictly typed forms and optional modules (SCAM-like). <br/>Angular stands out with its DI/IoC, it's a very powerful tool."
+      },
+      {
+        "name": "React",
+        "descr": "Before Angular I've wrote a lot of code on React and Redux (and was invited to do an online course at ITVDN), but now I'm just following changelogs."
       },
       { 
         "name": "HTML5 + CSS3 + SVG",
