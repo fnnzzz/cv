@@ -51,7 +51,7 @@
       },
       { 
         "name": "Git",
-        "descr": "Often use interactive rebase.<br/>Once in my life, I used `bisect' and it helped."
+        "descr": "Often use interactive rebase.<br/>Once in my life, I used `bisect` and it helped."
       },
       { "name": "Linux",
         "descr": "I know how to use grep, I can write a simple bash script, I can monitor an instance via top/htop"
