@@ -14,13 +14,13 @@
     "blockname": "General Info",
     "city": {
       "key": "🏙️",
-      "val": "Kyiv (since 2015), temporarily Rivne (since russ🤬an ⛴ has gone 🤬 yourself)"
+      "val": "Kyiv (since 2015), temporarily Rivne (since ⛴ has gone 🤬 yourself)"
     },
     "date-of-birth": { "key": "🎂", "val": "10 Nov 1994" },
     "english": { "key": "🇬🇧", "val": "Intermediate" },
     "education": {
       "key": "🎓",
-      "val": "[09.2012 — 06.2016] Donbas State Technical University (computer engineer, bachelor degree)"
+      "val": "Donbas State Technical University (computer engineer, bachelor degree) [2012 - 2016]"
     }
   },
   "skills": {
