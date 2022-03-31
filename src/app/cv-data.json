@@ -105,13 +105,13 @@
         "name": "ducky app",
         "start": "02/2022",
         "end": "04/2022",
-        "descr": "A promising startup that unfortunately stopped funding because of the war"
+        "descr": "A promising startup with talented guys. An idea was to create a benefits caffeteria. Unfortunately stopped funding because of the war"
       },
       {
         "name": "robota.ua: front-end tech lead",
         "start": "01/2021",
         "end": "02/2022",
-        "descr": "In this role I focused on complex problems, for example:<br><br>– slow builds: I implemented a non-trivial cache system for CI/CD on github actions, updated our stack to modern and fast webpack5, implemented some tricks for speed-up in dependencies via <a href='https://www.npmjs.com/package/patch-package'>patch-package</a><br>– improved performance (core web-vitals: LCP, TTFB, FID)<br/>– improved developer experience for engineers, for example: some routine things, like generate code from schema, become easier<br/>– implemented typesript's strict mode, spellcheckers and a lot of linters to avoid mistakes of human nature.<br><br>Besides technical things I did a mentoring, recruitment and various events to create a good atmosphere in the direction of the front-end (for example I implemented a bonus system based on code review and assistance to other)"
+        "descr": "In this role, I've focused on complex problems (either from business or engineers) which were sometimes complicated and didn't have easy answers. So many of them I had to analyze and research. A few such problems and solutions: <br> <br>  <ul>     <li>         <strong>Problem:</strong> We can't ship features fast. CI (TeamCity) accumulates a queue, a build has taken a lot of time.         <br/><strong>Solution:</strong> I've proposed and realized to migrate from TeamCity to Github Actions, then we've switched to <a href='https://nx.dev/ci/incremental-builds' target='_blank'>incremental builds approach</a> which significantly accelerated the speed of building our frontend mono repository (<a href='https://nx.dev/ci/incremental-builds' target='_blank'>pic</a> describing why)     </li>         <br> <li>         <strong>Problem:</strong> Sometimes we had errors like `undefined is not a...`.         <br/><strong>Solution:</strong> We've enabled typescript strict mode (incremental builds approach allowed us to make an iterative transition enabling for all new libs and slowly turning on for older ones.). Additionally, we improved ESLint (switched to full configs, added new plugins and more).     </li>   <br>     <li>         <strong>Problem:</strong> Sometimes pages load and render slowly. Lighthouse shows up metrics in a red zone.         <br/><strong>Solution:</strong> Decrease influence of zone.js (partial disable), inspect problems and \"slow code\" via chrome dev tools (perf tab). Enabling speed-ups in Cloudflare. As a result, we got into the green zone on some pages.     </li>  </ul>  <br>Aside from the technical stuff I've mentored, troubleshot, had sessions dedicated to architecture, one-on-one sessions, interviews (recruitment). We managed to launch a bonus program for engineers 💰"
       },
       {
         "name": "robota.ua: front-end engineer in a jobseeker team",
@@ -129,7 +129,7 @@
         "name": "pickoose.com",
         "start": "09/2016",
         "end": "11/2016",
-        "descr": "The startup, I had come there to re-develop the existing front-end from angular v1 to React + Redux + Restful eco-system. I got an interesting experience with developing an internal messenger. Unfortunately, the startup did not receive investments and I had to look for a job again."
+        "descr": "A startup, I had come there to re-develop the existing front-end from angular v1 to React + Redux + Restful eco-system. I got an interesting experience with developing an internal messenger. Unfortunately, the startup did not receive investments and I had to look for a job again."
       },
       {
         "name": "Lazard Export",
