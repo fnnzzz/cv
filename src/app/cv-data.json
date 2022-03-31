@@ -12,6 +12,10 @@
   },
   "general-info": {
     "blockname": "General Info",
+    "city": {
+      "key": "City",
+      "val": "Kyiv, temporarily Rivne"
+    },
     "date-of-birth": { "key": "Date of birth", "val": "10 Nov 1994" },
     "education": {
       "key": "Education",
