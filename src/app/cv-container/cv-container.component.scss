@@ -1,0 +1,14 @@
+.main-container {
+    position: relative;
+}
+
+.save-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+
+    @media print {
+        display: none;
+    }
+}

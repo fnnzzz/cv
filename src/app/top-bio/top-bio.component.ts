@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
+import { Component, Inject, Input, OnInit, Optional } from '@angular/core';
 
 @Component({
   selector: 'app-top-bio',
@@ -8,9 +9,6 @@ import { Component, Input, OnInit } from '@angular/core';
 export class TopBioComponent implements OnInit {
   @Input() data: any
 
-  constructor() { }
-
   ngOnInit(): void {
   }
-
 }
