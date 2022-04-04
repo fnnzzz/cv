@@ -14,6 +14,14 @@ body {
     background: #ccc;
     background-size: cover;
     background-attachment: fixed;
+
+    @media print {
+        &::before {
+            color: #0288D1;
+            content: 'print version of https://fnnzzz.github.io/cv/cv' 
+        }
+        background: none;
+    }
 }
 
 h1, h2, h3, h4, h5, p {
@@ -39,6 +47,7 @@ ul {
 
 
 .main-container {
+    
     background-color: #fff;
     width: 70vw;
     max-width: 1200px;
@@ -51,6 +60,15 @@ ul {
         width: auto;
         margin: 20px;
         padding: 20px 30px;
+    }
+
+    @media print {
+        padding: 0;
+        padding-top: 30px;
+        width: 100vw;
+        max-width: 100vw;
+        box-shadow: none;
+        margin: 0;
     }
 }
 
