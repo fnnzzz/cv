@@ -4,7 +4,16 @@
     <ul class="article-list">
         <li *ngFor="let skill of data.list" [class.-detailed]="skill.descr">
             {{ skill.name}}
+
             <p *ngIf="skill.descr" [innerHTML]="skill.descr"></p>
+
+            <ul *ngIf="skill.badges" class="badges">
+                <li *ngFor="let badge of skill.badges" [title]="badge.url ? 'achieved' : 'not achieved yet, in progress'">
+                    <a class="article-badge" href="{{ badge.url }}" target="_blank">
+                        <img src="{{badge.pic}}" />
+                    </a>                    
+                </li>
+            </ul>
         </li>
     </ul>
 </article>
