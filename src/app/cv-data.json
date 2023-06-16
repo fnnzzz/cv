@@ -1,40 +1,64 @@
-{ 
+{
   "topbio": {
     "pic": "assets/images/avatar.jpg",
     "fullname": "Vlad Feninets",
     "title": "front-end engineer",
     "links": [
-      { "name": "LinkedIn", "targetBlank": true, "href": "https://www.linkedin.com/in/fnnzzz/", "val": "https://linkedin.com/in/fnnzzz" },
-      { "name": "GitHub", "targetBlank": true, "href": "https://github.com/fnnzzz/", "val": "https://github.com/fnnzzz" },
-      { "name": "Email", "href": "mailto:v.feninets@gmail.com", "val": "v.feninets@gmail.com" },
-      { "name": "Telegram", "targetBlank": true, "href": "https://telegram.me/fnnzzz", "val": "@fnnzzz" }
+      {
+        "name": "LinkedIn",
+        "targetBlank": true,
+        "href": "https://www.linkedin.com/in/fnnzzz/",
+        "val": "https://linkedin.com/in/fnnzzz"
+      },
+      {
+        "name": "GitHub",
+        "targetBlank": true,
+        "href": "https://github.com/fnnzzz/",
+        "val": "https://github.com/fnnzzz"
+      },
+      {
+        "name": "Email",
+        "href": "mailto:v.feninets@gmail.com",
+        "val": "v.feninets@gmail.com"
+      },
+      {
+        "name": "Telegram",
+        "targetBlank": true,
+        "href": "https://telegram.me/fnnzzz",
+        "val": "@fnnzzz"
+      }
     ]
   },
   "general-info": {
     "blockname": "General Info",
     "city": {
       "key": "🏙️",
-      "val": "Kyiv (since 2015), temporarily Rivne (since ⛴ has gone 🤬 yourself)"
+      "val": "Vienna, Austria"
     },
     "date-of-birth": { "key": "🎂", "val": "10 Nov 1994" },
-    "english": { "key": "🇬🇧", "val": "Pre-Intermediate" },
+    "english": { "key": "🇬🇧", "val": "Intermediate (B1)" },
     "education": {
       "key": "🎓",
-      "val": "Donbas State Technical University (computer engineer, bachelor degree) [2012 - 2016]"
+      "val": "Computer engineering, bachelor degree [2012 - 2016]"
     }
   },
   "skills": {
     "blockname": "Skills",
     "list": [
-      { 
+      {
         "name": "Lead skills",
         "descr": "In the tech lead position I did:<br><ul class='inner-list'><li>mentoring engineers</li> <li>one-to-one sessions</li> <li>code review</li> <li>architecture design sessions</li> <li>troubleshooting and helping</li> <li>interviews (recruitment)</li> <li>implemented a bonus system</li></ul>"
       },
-      { 
-        "name": "ESnext / JS",
+      {
+        "name": "AWS Cloud",
+        "descr": "Recently I started to study AWS cloud more comprehensively.<br/>Before, I often used different clouds for solving applied problems - like GCP, Azure, AWS. But now I focused and stopped on AWS cloud.<br/>I often use services like Lambda, DynamoDB, EC2/Fargate to automate some stuff, for my purposes and just for experimenting.<br/><a href='https://www.credly.com/badges/99489466-96d8-4dbc-9bab-a152d48aa692/public_url' target='_blank'>I already have</a> a \"Cloud Practitioner\" certificate\", but now I'm preparing to get associate level <a href='https://aws.amazon.com/certification/' target='_blank'>cerificates</a> - `Developer` and `Solutions Architect`."
+      },
+      {
+        "name": "JavaScript",
         "descr": "I know the difference between `call` and `apply`, <br/>I know why `typeof [] === \"object\"` and why you have to be careful with a method `.sort()`.   <br/>I can implement a polyfill for `fetch` or add a new method `.any()` for all promises in your code.   <br/>I know how works event loop in JS.<br/>Really like FRP."
       },
-      { "name": "Typescript",
+      {
+        "name": "Typescript",
         "descr": "I've become a fan of strictly typed code with Angular.          <br/>Generics are my love.          <br/>I often use some advanced TS tricks like type guards, conditional types, inferring in my projects, but given the fact that TS is a \"Turing-complete\" language, you can do a lot of other interesting things."
       },
       {
@@ -42,22 +66,23 @@
         "descr": "When you come to RxJS - your mind is blown. <br/>But after that, you can't imagine a better tool to organize async stuff. <br/>I know the difference between `switchMap` and `mergeMap`, when to use cold observables instead of hot (or vice versa), and how `shareReplay()` will help you with this."
       },
       {
-        "name": "Angular 13+",
-        "descr": "A lot of time I've been involved in performance issues in angular, so I know how to tame `zone.js` or turn it off at all (but it's more complicated). <br/>I know why exists `@Inject` and `@SkipSelf` and I've implemented own modules with `forRoot(...)`<br/>Very much looking forward to v14 with strictly typed forms and optional modules (SCAM-like). <br/>Angular stands out with its DI/IoC, it's a very powerful tool."
+        "name": "Angular",
+        "descr": "I've been working with Angular for 4 years. A lot of time I've been involved in performance issues in angular, so I know how to tame `zone.js` or turn it off at all (but it's more complicated). <br/>I know why exists `@Inject` and `@SkipSelf` and I've implemented own modules with `forRoot(...)`<br/>Very much looking forward to v14 with strictly typed forms and optional modules (SCAM-like). <br/>Angular stands out with its DI/IoC, it's a very powerful tool."
       },
       {
         "name": "React",
-        "descr": "Before Angular I've wrote a lot of code on React and Redux (and was invited to do an online course at ITVDN), but now I'm just following changelogs."
+        "descr": "Currently, my main framework. We use the standard setup - hooks and redux."
       },
-      { 
+      {
         "name": "HTML5 + CSS3 + SVG",
         "descr": "div[style*=\"height: 70px\"] { height: 40px !important; }"
       },
-      { 
+      {
         "name": "Git",
         "descr": "Often use interactive rebase.<br/>Once in my life, I used `bisect` and it helped."
       },
-      { "name": "Linux",
+      {
+        "name": "Linux",
         "descr": "I know how to use grep, I can write a simple bash script, I can monitor an instance via top/htop"
       },
       {
@@ -106,10 +131,15 @@
     "blockname": "Work Experience",
     "list": [
       {
-        "name": "ducky app",
+        "name": "xbo.com: front-end developer",
+        "start": "02/2022",
+        "descr": "Now I am helping with the development <br/>of the cryptocurrencies trade platform as a Senior Front-End developer.<br/>A lot of features related to financial calculations and mathematical operations."
+      },
+      {
+        "name": "ducky app: front-end + DevOps",
         "start": "02/2022",
         "end": "04/2022",
-        "descr": "A promising startup with talented guys. An idea was to create a benefits caffeteria. Unfortunately stopped funding because of the war"
+        "descr": "A promising startup with talented guys. An idea was to create a benefits \"caffeteria\".<br/>Unfortunately stopped funding.<br/>I was a single front-end engineer in our team. I made a web application from scratch and was also involved in automating delivery and deployment processes in the cloud."
       },
       {
         "name": "robota.ua: front-end tech lead",
@@ -118,37 +148,37 @@
         "descr": "In this role, I've focused on complex problems (either from business or engineers) which were sometimes complicated and didn't have easy answers. So many of them I had to analyze and research. A few such problems and solutions: <br> <br>  <ul>     <li>         <strong>Problem:</strong> We can't ship features fast. CI (TeamCity) accumulates a queue, a build has taken a lot of time.         <br/><strong>Solution:</strong> I've proposed and realized to migrate from TeamCity to Github Actions, then we've switched to <a href='https://nx.dev/ci/incremental-builds' target='_blank'>incremental builds approach</a> which significantly accelerated the speed of building our frontend mono repository (<a href='https://nx.dev/documentation/shared/incremental-build-webpack-vs-incremental.png' target='_blank'>pic</a> describing why)     </li>         <br> <li>         <strong>Problem:</strong> Sometimes we had errors like `undefined is not a...`.         <br/><strong>Solution:</strong> We've enabled typescript strict mode (incremental builds approach allowed us to make an iterative transition enabling for all new libs and slowly turning on for older ones.). Additionally, we improved ESLint (switched to full configs, added new plugins and more).     </li>   <br>     <li>         <strong>Problem:</strong> Sometimes pages load and render slowly. Lighthouse shows up metrics in a red zone.         <br/><strong>Solution:</strong> Decrease influence of zone.js (partial disable), inspect problems and \"slow code\" via chrome dev tools (perf tab). Enabling speed-ups in Cloudflare. As a result, we got into the green zone on some pages.     </li>  </ul>  <br>Aside from the technical stuff I've mentored, troubleshot, had sessions dedicated to architecture, one-on-one sessions, interviews (recruitment). We managed to launch a bonus program for engineers 💰"
       },
       {
-        "name": "robota.ua: front-end engineer in a jobseeker team",
+        "name": "robota.ua: front-end developer",
         "start": "11/2016",
         "end": "01/2021",
         "descr": "Worked in a jobseeker team. During this time I managed to develop using different frameworks and approaches: knockout, react+redux, angular. Last 3 years robota.ua finally settled on the choice: angular + graphql and we increased our expertise in this direction"
       },
       {
-        "name": "ITVDN [part-time]",
+        "name": "ITVDN [part-time]: course lecturer",
         "start": "03/2017",
         "end": "07/2017",
         "descr": "In parallel with the main job (I mean part-time), I was involved with the development of the React+Redux course on ITVDN platform. As for me, it was a very interesting & challenging experience, but to repeat something like this I am not going to in the nearest future :) <br/> You can watch by the following link - <a href='https://itvdn.com/ru/video/react_adv' target='_blank'>ITVDN</a> and <a href='https://www.youtube.com/playlist?list=PLvItDmb0sZw9CbcmbrRsdWSxPcr3qi4eZ' target='_blank'>YouTube (promo cropped video)</a>"
       },
       {
-        "name": "pickoose.com",
+        "name": "pickoose.com: front-end developer",
         "start": "09/2016",
         "end": "11/2016",
         "descr": "A startup, I had come there to re-develop the existing front-end from angular v1 to React + Redux + Restful eco-system. I got an interesting experience with developing an internal messenger. Unfortunately, the startup did not receive investments and I had to look for a job again."
       },
       {
-        "name": "Lazard Export",
+        "name": "Lazard Export: front-end developer",
         "start": "04/2016",
         "end": "09/2016",
         "descr": "There is my first encounter with the stack React + Redux + Webpack (it was a time when you had to set it up yourself).<br>I've been doing a dashboard for an IoT project. It was something like a smart lock, where you can unlock the door by credit card and manage access in the dashboard."
       },
       {
-        "name": "ITCG",
+        "name": "ITCG: front-end developer",
         "start": "06/2015",
         "end": "04/2016",
         "descr": "Development of promo and landing pages. Mostly they were vanilla JS & a lot of jQuery-like. I had experience in the role of full-stack for one of the project - Guerlain, I've implemented the whole project from ground zero (back-end and front-end) using python (Django)."
       },
       {
-        "name": "Freelance",
+        "name": "Freelance: web-developer",
         "start": "2014",
         "end": "2015",
         "descr": "We had two bags of wordpress, seventy-five pellets of free html5 templates... <br /> Not that we needed all that for the freelance, but once you get locked into a serious web-sites collection, the tendency is to push it as far as you can ©"
