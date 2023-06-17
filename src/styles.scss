@@ -110,7 +110,8 @@ ul {
         padding: 20px 0;
 
         @media screen and (max-width: $tablet_bp) {
-            margin-left: 0
+            margin-left: 0;
+            text-align: center;;
         }
     }
 
@@ -172,6 +173,7 @@ ul {
 
     @media screen and (max-width: $tablet_bp) {
         font-size: 17px;
+        margin-left: 15px;
     }
 
     &:not(:first-child) {
@@ -193,6 +195,7 @@ ul {
 
         @media screen and (max-width: $tablet_bp) {
             font-size: 16px;
+            margin-left: 15px;
         }
 
         &::before {
@@ -209,6 +212,10 @@ ul {
                 margin-left: 80px;
                 font-size: 15px;
                 line-height: 20px;
+
+                @media screen and (max-width: $tablet_bp) {
+                    margin-left: 30px;
+                }
             }
 
             .badges {
@@ -217,6 +224,10 @@ ul {
 
                 img {
                     width: 100px;
+
+                    @media screen and (max-width: $tablet_bp) {
+                        width: 80px;
+                    }
                 }
 
                 [href=""] {
