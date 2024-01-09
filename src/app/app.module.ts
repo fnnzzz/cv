@@ -7,8 +7,8 @@ import { CvContainerComponent } from './cv-container/cv-container.component';
 import { GeneralInfoComponent } from './general-info/general-info.component';
 import { SkillsComponent } from './skills/skills.component';
 import { TopBioComponent } from './top-bio/top-bio.component';
-import { TopProjectsComponent } from './top-projects/top-projects.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { SummaryComponent } from './summary/summary.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +17,8 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
     GeneralInfoComponent,
     SkillsComponent,
     TopBioComponent,
-    TopProjectsComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    SummaryComponent
   ],
   imports: [
     BrowserModule

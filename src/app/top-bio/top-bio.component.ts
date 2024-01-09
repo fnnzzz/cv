@@ -1,5 +1,5 @@
-import { DOCUMENT } from '@angular/common';
-import { Component, Inject, Input, OnInit, Optional } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import type cvDataType from '../cv-data.json'
 
 @Component({
   selector: 'app-top-bio',
@@ -7,7 +7,7 @@ import { Component, Inject, Input, OnInit, Optional } from '@angular/core';
   styleUrls: ['./top-bio.component.scss']
 })
 export class TopBioComponent implements OnInit {
-  @Input() data: any
+  @Input() data!: typeof cvDataType['topbio']
 
   ngOnInit(): void {
   }

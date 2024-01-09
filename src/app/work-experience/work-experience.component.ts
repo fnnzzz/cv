@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import type cvDataType from '../cv-data.json'
 
 @Component({
   selector: 'app-work-experience',
@@ -6,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./work-experience.component.scss']
 })
 export class WorkExperienceComponent implements OnInit {
-  @Input() data: any
+  @Input() data!: typeof cvDataType['work-experience']
 
   constructor() { }
 

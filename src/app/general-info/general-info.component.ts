@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import type cvDataType from '../cv-data.json'
 
 @Component({
   selector: 'app-general-info',
@@ -6,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./general-info.component.scss']
 })
 export class GeneralInfoComponent implements OnInit {
-  @Input() data: any
+  @Input() data!: typeof cvDataType['general-info']
 
   constructor() { }
 
