@@ -1,5 +1,5 @@
 <article class="article-block">
-    <h4 class="article-title">{{data.blockname}}:</h4>
+    <h4 class="article-title" title="{{getTotalYearsInIT}} years overall">{{data.blockname}}:</h4>
 
     <ul class="article-list">
         <li *ngFor="let w of data.list" [class.-detailed]="w.descr">

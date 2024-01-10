@@ -184,6 +184,12 @@ ul {
         border-bottom: 1px dashed #555;
         margin-right: 5px;
     }
+
+    &.-summary {
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 20px;
+    }
 }
 
 .article-list {
@@ -239,7 +245,6 @@ ul {
 
         & .-now {
             border-bottom: 1px dashed #666;
-            cursor: help;
         }
     }
 }
@@ -248,4 +253,8 @@ ul {
     list-style: disc;
     list-style-position: inside;
     padding-left: 10px
+}
+
+*[title] {
+    cursor: help;
 }
