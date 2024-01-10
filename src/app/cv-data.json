@@ -33,14 +33,22 @@
     "blockname": "General Info",
     "city": {
       "key": "🏙️",
-      "val": "Vienna, Austria"
+      "val": "Vienna, Austria 🇦🇹"
     },
     "date-of-birth": { "key": "🎂", "val": "10 Nov 1994 🇺🇦" },
-    "english": { "key": "🇬🇧", "val": "Intermediate (B1)" },
+    "english": { "key": "🇬🇧", "val": "B2" },
     "education": {
       "key": "🎓",
       "val": "Computer engineering, bachelor degree [2012 - 2016]"
     }
+  },
+  "summary": {
+    "blockname": "Summary",
+    "paragraphs": [
+      "As a Senior Front End Engineer with 9 years of diverse experience, I've overseen projects spanning a multitude of domains, from implementing serverless solutions using Lambda/Dynamo/SQS to configuring Linux servers for LAMP stacks.",
+      "As a Frontend Tech Lead, I successfully tackled numerous technical challenges, adapting tools like Webpack and PostCSS to implement advanced performance optimizations. I implemented techniques such as TypeScript strict mode, introduced static analysis with Sonar, and integrated real-time error monitoring to minimize human errors. It allowed to enhance overall product quality.",
+      "Additionally, I improved project builds, doubling their speed by introducing <a href='https://nx.dev/concepts/more-concepts/incremental-builds' target='_blank' rel='noopener noreferrer'>incremental builds</a> and transitioning our CI from Teamcity to GitHub Actions to allow parallelize the process. Simultaneously, I played a pivotal role in team growth, contributing to the expansion from 6 to 12 frontend engineers by actively participating in the hiring process as an interviewer."
+    ]
   },
   "skills": {
     "blockname": "Skills",
@@ -51,10 +59,10 @@
       },
       {
         "name": "AWS Cloud",
-        "descr": "Recently I started to study AWS cloud more comprehensively.<br/>Before, I often used different clouds for solving applied problems - like GCP, Azure, AWS. But now I focused and stopped on AWS cloud.<br/>I often use services like Lambda, DynamoDB, EC2/Fargate to automate some stuff, for my purposes and just for experimenting.<br/><a href='https://www.credly.com/badges/99489466-96d8-4dbc-9bab-a152d48aa692/public_url' target='_blank'>I already have</a> a \"Cloud Practitioner\" certificate, and now I'm preparing to get associate level <a href='https://aws.amazon.com/certification/' target='_blank'>cerificates</a> - `Developer` and `Solutions Architect`.",
+        "descr": "Recently I started to study AWS cloud more comprehensively.<br/>Before, I often used different clouds for solving applied problems - like GCP, Azure, AWS. But now I focused and stopped on AWS cloud.<br/>I often use services like Lambda, DynamoDB, EC2/Fargate to automate some stuff, for my purposes and just for experimenting.<br/><a href='https://www.credly.com/badges/99489466-96d8-4dbc-9bab-a152d48aa692/public_url' target='_blank' rel='noopener noreferrer'>I already have</a> a \"Cloud Practitioner\" certificate, and now I'm preparing to get associate level <a href='https://aws.amazon.com/certification/' target='_blank' rel='noopener noreferrer'>cerificates</a> - `Developer` and `Solutions Architect`.",
         "badges": [
           { "pic": "assets/images/cpf-badge.png", "url": "https://www.credly.com/badges/99489466-96d8-4dbc-9bab-a152d48aa692/public_url" },
-          { "pic": "assets/images/developer-associate.png" },
+          { "pic": "assets/images/developer-associate.png", "url": "https://www.credly.com/badges/4986f3f5-3985-4467-9124-e18d26c59404/public_url" },
           { "pic": "assets/images/solutions-arch-associate.png" }
         ]
       },
@@ -83,16 +91,12 @@
         "descr": "div[style*=\"height: 70px\"] { height: 40px !important; }"
       },
       {
-        "name": "Git",
-        "descr": "Often use interactive rebase.<br/>Once in my life, I used `bisect` and it helped."
-      },
-      {
         "name": "Linux",
         "descr": "I know how to use grep, I can write a simple bash script, I can monitor an instance via top/htop"
       },
       {
         "name": "Node.js",
-        "descr": "I have experience with koa+mongoose in my own pet project. <br>I also often inspect some bundler's stuff in node_modules to demystifying how it works. <br>Very often used node for different utility purposes, like iterating, creating and modifying files, some kind of generators, some global refactoring (<a href='https://github.com/dsherret/ts-morph' target='_blank'>ts-morph</a>), stuff improved DX, etc. <br>Node often is very useful"
+        "descr": "I have experience with koa+mongoose in my own pet project. <br>I also often inspect some bundler's stuff in node_modules to demystifying how it works. <br>Very often used node for different utility purposes, like iterating, creating and modifying files, some kind of generators, some global refactoring (<a href='https://github.com/dsherret/ts-morph' target='_blank' rel='noopener noreferrer'>ts-morph</a>), stuff improved DX, etc. <br>Node often is very useful"
       },
       {
         "name": "GraphQL/Apollo",
@@ -121,14 +125,6 @@
       {
         "name": "NoSQL",
         "descr": "I have pet projects that used MongoDB (with koa and mongoose)"
-      },
-      {
-        "name": "PHP",
-        "descr": "A long time ago I've used PHP for developing admin panels, websites, and customization of WordPress."
-      },
-      {
-        "name": "Python, C#, Java",
-        "descr": "Wrote something"
       }
     ]
   },
@@ -136,57 +132,45 @@
     "blockname": "Work Experience",
     "list": [
       {
-        "name": "xbo.com: front-end developer",
-        "start": "02/2022",
+        "name": "Senior Front-end engineer: xbo.com",
+        "start": "04/2022",
         "descr": "Now I am helping with the development <br/>of the cryptocurrencies trade platform as a Senior Front-End developer.<br/>A lot of features related to financial calculations and mathematical operations."
       },
       {
-        "name": "ducky app: front-end + DevOps",
-        "start": "02/2022",
+        "name": "Front-end + DevOps: ducky.app",
+        "start": "12/2021",
         "end": "04/2022",
         "descr": "A promising startup with talented guys. An idea was to create a benefits \"caffeteria\".<br/>Unfortunately stopped funding.<br/>I was a single front-end engineer in our team. I made a web application from scratch and was also involved in automating delivery and deployment processes in the cloud."
       },
       {
-        "name": "robota.ua: front-end tech lead",
+        "name": "Front-end Tech Lead: robota.ua",
         "start": "01/2021",
-        "end": "02/2022",
-        "descr": "In this role, I've focused on complex problems (either from business or engineers) which were sometimes complicated and didn't have easy answers. So many of them I had to analyze and research. A few such problems and solutions: <br> <br>  <ul>     <li>         <strong>Problem:</strong> We can't ship features fast. CI (TeamCity) accumulates a queue, a build has taken a lot of time.         <br/><strong>Solution:</strong> I've proposed and realized to migrate from TeamCity to Github Actions, then we've switched to <a href='https://nx.dev/ci/incremental-builds' target='_blank'>incremental builds approach</a> which significantly accelerated the speed of building our frontend mono repository (<a href='https://nx.dev/documentation/shared/incremental-build-webpack-vs-incremental.png' target='_blank'>pic</a> describing why)     </li>         <br> <li>         <strong>Problem:</strong> Sometimes we had errors like `undefined is not a...`.         <br/><strong>Solution:</strong> We've enabled typescript strict mode (incremental builds approach allowed us to make an iterative transition enabling for all new libs and slowly turning on for older ones.). Additionally, we improved ESLint (switched to full configs, added new plugins and more).     </li>   <br>     <li>         <strong>Problem:</strong> Sometimes pages load and render slowly. Lighthouse shows up metrics in a red zone.         <br/><strong>Solution:</strong> Decrease influence of zone.js (partial disable), inspect problems and \"slow code\" via chrome dev tools (perf tab). Enabling speed-ups in Cloudflare. As a result, we got into the green zone on some pages.     </li>  </ul>  <br>Aside from the technical stuff I've mentored, troubleshot, had sessions dedicated to architecture, one-on-one sessions, interviews (recruitment). We managed to launch a bonus program for engineers 💰"
+        "end": "12/2021",
+        "descr": "In this role, I've focused on complex problems (either from business or engineers) which were sometimes complicated and didn't have easy answers. So many of them I had to analyze and research. A few such problems and solutions: <br> <br>  <ul>     <li>         <strong>Problem:</strong> We can't ship features fast. CI (TeamCity) accumulates a queue, a build has taken a lot of time.         <br/><strong>Solution:</strong> I've proposed and realized to migrate from TeamCity to Github Actions, then we've switched to <a href='https://nx.dev/ci/incremental-builds' target='_blank' rel='noopener noreferrer'>incremental builds approach</a> which significantly accelerated the speed of building our frontend mono repository (<a href='https://nx.dev/documentation/shared/incremental-build-webpack-vs-incremental.png' target='_blank' rel='noopener noreferrer'>pic</a> describing why)     </li>         <br> <li>         <strong>Problem:</strong> Sometimes we had errors like `undefined is not a...`.         <br/><strong>Solution:</strong> We've enabled typescript strict mode (incremental builds approach allowed us to make an iterative transition enabling for all new libs and slowly turning on for older ones.). Additionally, we improved ESLint (switched to full configs, added new plugins and more).     </li>   <br>     <li>         <strong>Problem:</strong> Sometimes pages load and render slowly. Lighthouse shows up metrics in a red zone.         <br/><strong>Solution:</strong> Decrease influence of zone.js (partial disable), inspect problems and \"slow code\" via chrome dev tools (perf tab). Enabling speed-ups in Cloudflare. As a result, we got into the green zone on some pages.     </li>  </ul>  <br>Aside from the technical stuff I've mentored, troubleshot, had sessions dedicated to architecture, one-on-one sessions, interviews (recruitment). We managed to launch a bonus program for engineers 💰"
       },
       {
-        "name": "robota.ua: front-end developer",
+        "name": "Front-end engineer: robota.ua",
         "start": "11/2016",
         "end": "01/2021",
         "descr": "Worked in a jobseeker team. During this time I managed to develop using different frameworks and approaches: knockout, react+redux, angular. Last 3 years robota.ua finally settled on the choice: angular + graphql and we increased our expertise in this direction"
       },
       {
-        "name": "ITVDN [part-time]: course lecturer",
+        "name": "Online course lecturer: ITVDN.com [part-time]",
         "start": "03/2017",
         "end": "07/2017",
-        "descr": "In parallel with the main job (I mean part-time), I was involved with the development of the React+Redux course on ITVDN platform. As for me, it was a very interesting & challenging experience, but to repeat something like this I am not going to in the nearest future :) <br/> You can watch by the following link - <a href='https://itvdn.com/ru/video/react_adv' target='_blank'>ITVDN</a> and <a href='https://www.youtube.com/playlist?list=PLvItDmb0sZw9CbcmbrRsdWSxPcr3qi4eZ' target='_blank'>YouTube (promo cropped video)</a>"
+        "descr": "In parallel with the main job (I mean part-time), I was involved with the development of the React+Redux course on ITVDN platform. As for me, it was a very interesting & challenging experience, but to repeat something like this I am not going to in the nearest future :) <br/> You can watch by the following link - <a href='https://itvdn.com/ru/video/react_adv' target='_blank' rel='noopener noreferrer'>ITVDN</a> and <a href='https://www.youtube.com/playlist?list=PLvItDmb0sZw9CbcmbrRsdWSxPcr3qi4eZ' target='_blank' rel='noopener noreferrer'>YouTube (promo cropped video)</a>"
       },
       {
-        "name": "pickoose.com: front-end developer",
-        "start": "09/2016",
-        "end": "11/2016",
-        "descr": "A startup, I had come there to re-develop the existing front-end from angular v1 to React + Redux + Restful eco-system. I got an interesting experience with developing an internal messenger. Unfortunately, the startup did not receive investments and I had to look for a job again."
-      },
-      {
-        "name": "Lazard Export: front-end developer",
+        "name": "Front-end engineer: Lazard Export",
         "start": "04/2016",
         "end": "09/2016",
         "descr": "There is my first encounter with the stack React + Redux + Webpack (it was a time when you had to set it up yourself).<br>I've been doing a dashboard for an IoT project. It was something like a smart lock, where you can unlock the door by credit card and manage access in the dashboard."
       },
       {
-        "name": "ITCG: front-end developer",
+        "name": "Front-end engineer: ITCG (Full-Service Digital Agency)",
         "start": "06/2015",
         "end": "04/2016",
         "descr": "Development of promo and landing pages. Mostly they were vanilla JS & a lot of jQuery-like. I had experience in the role of full-stack for one of the project - Guerlain, I've implemented the whole project from ground zero (back-end and front-end) using python (Django)."
-      },
-      {
-        "name": "Freelance: web-developer",
-        "start": "2014",
-        "end": "2015",
-        "descr": "We had two bags of wordpress, seventy-five pellets of free html5 templates... <br /> Not that we needed all that for the freelance, but once you get locked into a serious web-sites collection, the tendency is to push it as far as you can ©"
       }
     ]
   }

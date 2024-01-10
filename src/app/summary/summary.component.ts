@@ -7,7 +7,7 @@ import type cvDataType from '../cv-data.json'
   styleUrls: ['./summary.component.scss']
 })
 export class SummaryComponent implements OnInit {
-  @Input() data!: typeof cvDataType
+  @Input() data!: typeof cvDataType['summary']
 
   constructor() { }
 
