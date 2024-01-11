@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import type cvDataType from '../cv-data.json'
+import { getOverallExperienceYears } from '../utils';
 
 @Component({
   selector: 'app-work-experience',
@@ -15,10 +16,7 @@ export class WorkExperienceComponent implements OnInit {
   }
 
   get getTotalYearsInIT(): string {
-    const firstYearInIT = 2015
-    const currentYear = new Date().getFullYear()
-    const diff = currentYear - firstYearInIT
-    return diff.toString()
+    return getOverallExperienceYears()
   }
 
 }

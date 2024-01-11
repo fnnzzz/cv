@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import type cvDataType from '../cv-data.json'
+import { getOverallExperienceYears } from '../utils';
 
 @Component({
   selector: 'app-summary',
@@ -12,6 +13,12 @@ export class SummaryComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  get paragraphsFormatted() {
+    return this.data.paragraphs.map(p => {
+      return p.replace('{{OVERALL_EXPERIENCE_YEARS}}', getOverallExperienceYears())
+    })
   }
 
 }
