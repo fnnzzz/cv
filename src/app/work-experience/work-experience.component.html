@@ -3,8 +3,8 @@
 
     <ul class="article-list">
         <li *ngFor="let w of data.list" [class.-detailed]="w.descr">
-            {{w.name}} ({{w.start}} - 
-            
+            <span [innerHTML]="w.name"></span>
+            ({{w.start}} - 
             <span *ngIf="!w.end" class="-now" title="up until today">now</span>
             <span *ngIf="w.end">{{ w.end }}</span>)
             <p [innerHTML]="w.descr"></p>
