@@ -260,7 +260,12 @@ ul {
 .inner-list {
     list-style: disc;
     list-style-position: inside;
-    padding-left: 10px
+    padding-left: 10px;
+}
+
+.inner-list .inner-list {
+    padding-left: 35px;
+    list-style: circle;
 }
 
 *[title] {
@@ -273,4 +278,14 @@ ul {
     margin: 0 5px;
     vertical-align: middle;
     border-radius: 50%;
+}
+
+code {
+    padding: 2px 4px;
+    margin: 0;
+    font-size: 90%;
+    white-space: break-spaces;
+    background-color: rgba(175,184,193,0.2);
+    border-radius: 6px;
+    font-family: monospace;
 }
