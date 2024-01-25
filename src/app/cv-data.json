@@ -70,6 +70,10 @@
           { "pic": "assets/images/developer-associate.png", "url": "https://www.credly.com/badges/4986f3f5-3985-4467-9124-e18d26c59404/public_url" },
           { "pic": "assets/images/solutions-arch-associate.png" }
         ]
+      },
+      {
+        "name": "Miscellaneous",
+        "descr": "<ul class='inner-list'><li>Node.js:<ul class='inner-list'><li>Efficiently utilized in personal projects.</li><li>Developed REST APIs using Express/Koa for various pet projects.</li><li>Provided support for a SSR app for Angular, implementing different optimizations.</li><li>Frequently delved into the internals of various libraries and tools within node_modules.</li></ul></li><li>GraphQL with Apollo:<ul class='inner-list'><li>Utilized as the primary data source on robota.ua.</li><li>Developed resolvers in JavaScript for various scenarios.</li></ul></li><li>SQL:<ul class='inner-list'><li>During my student years, extensively used for creating custom dashboards on PHP and similar projects.</li><li>Currently, SQL usage is infrequent, and queries are relatively simple, often leveraging services like S3 Select or Athena.</li></ul></li><li>NoSQL:<ul class='inner-list'><li>Regularly use DynamoDB for personal projects and have experience with MongoDB.</li></ul></li><li>Python:<ul class='inner-list'><li>Occasionally write simple tools for unix, leveraging Python as an 'advanced bash' alternative.</li></ul></li></ul>"
       }
     ]
   },
