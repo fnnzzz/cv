@@ -3,7 +3,7 @@
 
     <div class="top-bio__rightside">
         <h2 class="top-bio__fullname">{{data.fullname}}</h2>
-        <p class="top-bio__title">{{data.title}}</p>
+        <p class="top-bio__title" *ngFor="let line of data.title">{{line}}</p>
 
         <ul class="top-bio__links">
             <li *ngFor="let l of data.links">

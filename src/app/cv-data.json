@@ -2,7 +2,7 @@
   "topbio": {
     "pic": "assets/images/avatar.jpg",
     "fullname": "Vlad Feninets",
-    "title": "Staff Software Engineer",
+    "title": ["Senior Software Engineer", "AI Product Co-Founder"],
     "links": [
       {
         "name": "LinkedIn",
