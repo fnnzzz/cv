@@ -27,7 +27,7 @@
     "blockname": "General Info",
     "city": {
       "key": "🏙️",
-      "val": "Vienna, Austria 🇦🇹 🇺🇦"
+      "val": "Vienna, Austria 🇦🇹"
     },
     "education": {
       "key": "🎓",
@@ -90,7 +90,7 @@
     "blockname": "Work Experience",
     "list": [
       {
-        "name": "Co-Founder & Engineering Lead: <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>Eli — AI Language Tutor</a>",
+        "name": "Co-Founder: <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>Eli — AI Language Tutor</a>",
         "start": "2024",
         "descr": "Co-founded <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>Eli</a> and led the engineering direction of an AI-powered English tutor that outperforms generic ChatGPT conversations by focusing on pronunciation analysis, personalized learning plans, and goal-oriented practice (interviews, work meetings, relocation scenarios).<br/><br/><b>Architecture & AI:</b> Designed a fully serverless AWS stack (Lambda, DynamoDB, SQS, API Gateway, CloudFront, Cognito). Implemented LLM orchestration using LangChain with fine-tuned GPT models. Built GPU-serverless voice recognition pipeline using Whisper that provides real-time pronunciation feedback and phoneme-level analysis.<br/><br/><b>Payments:</b> Developed custom Stripe integration with a tier-based subscription model (each tier with its own minutes limit). Implemented Stripe webhooks on GCP Cloud Functions with Firestore for real-time payment event processing, fully integrated with Firebase Auth and user management.<br/><br/><b>Product & Data:</b> Engineered a smart user profile system that continuously learns from each conversation — tracking weak sounds, vocabulary gaps, and progress toward concrete goals. The system adapts dialogue difficulty, vocabulary selection, and scenario complexity based on accumulated learner data, delivering measurably better outcomes than generic AI chat interfaces.<br/><br/>Owned the technical execution end to end: system architecture, backend, frontend, AI pipeline, payments, infrastructure, CI/CD, and landing page engineering."
       },
