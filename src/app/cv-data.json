@@ -2,7 +2,7 @@
   "topbio": {
     "pic": "assets/images/avatar.png",
     "fullname": "Vlad Feninets",
-    "title": ["Senior Software Engineer", "AI Product Co-Founder"],
+    "title": ["· Senior Software Engineer", "· AI Product Co-Founder"],
     "links": [
       {
         "name": "LinkedIn",
@@ -27,7 +27,7 @@
     "blockname": "General Info",
     "city": {
       "key": "🏙️",
-      "val": "Vienna, Austria 🇦🇹"
+      "val": "Vienna, Austria 🇦🇹 · From Ukraine 🇺🇦"
     },
     "education": {
       "key": "🎓",
@@ -40,7 +40,7 @@
       "Senior Software Engineer with {{OVERALL_EXPERIENCE_YEARS}} years of experience building and architecting high-load web platforms, serverless cloud systems, and AI-powered products. Co-founded <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a> and led its technical architecture and implementation across a fully serverless AWS + GCP/Firebase stack, including LLM orchestration, voice recognition, Stripe payments, and algorithm of adaptive learning.",
       "Proven track record of driving engineering quality at scale: led frontend platform for Ukraine's largest job board (6.5M+ resumes, 100K+ active listings), grew the team from 6 to 12 engineers, halved CI build times, and shifted Web Vitals from red to green. Adopted Spotify's engineering culture model to improve team autonomy and delivery.",
       "Deep AWS expertise backed by multiple certifications (Developer Associate, Solutions Architect Associate). Designed and shipped production serverless architectures with Lambda, DynamoDB, SQS, and API Gateway — both commercially and for own products.",
-      "Currently expanding into system architecture and distributed systems design, with a focus on scalability patterns, event-driven architectures, and cross-team technical leadership."
+      "Long-term trajectory toward building data-intensive, high-load systems — studying distributed systems design, consistency models, and infrastructure scalability to complement hands-on production experience."
     ]
   },
   "skills": {
@@ -73,10 +73,6 @@
           {
             "pic": "assets/images/solutions-arch-associate.png",
             "url": "https://www.credly.com/badges/696fcac0-fe76-451c-a155-dba8dfdb6938/public_url"
-          },
-          {
-            "pic": "assets/images/claude-code-in-action.png",
-            "url": "https://verify.skilljar.com/c/ujxu4kr4vsan"
           }
         ]
       },
@@ -91,7 +87,7 @@
     "list": [
       {
         "name": "Co-Founder: <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI — AI Language Tutor</a>",
-        "start": "2024",
+        "start": "2025",
         "descr": "Co-founded <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a> and led the engineering direction of an AI-powered English tutor that outperforms generic ChatGPT conversations by focusing on pronunciation analysis, personalized learning plans, and goal-oriented practice (interviews, work meetings, relocation scenarios).<br/><br/><b>Architecture & AI:</b> Designed a fully serverless AWS stack (Lambda, DynamoDB, SQS, API Gateway, CloudFront, Cognito). Implemented LLM orchestration using LangChain with fine-tuned GPT models. Built GPU-serverless voice recognition pipeline using Whisper that provides real-time pronunciation feedback and phoneme-level analysis.<br/><br/><b>Payments:</b> Developed custom Stripe integration with a tier-based subscription model (each tier with its own minutes limit). Implemented Stripe webhooks on GCP Cloud Functions with Firestore for real-time payment event processing, fully integrated with Firebase Auth and user management.<br/><br/><b>Product & Data:</b> Engineered a smart user profile system that continuously learns from each conversation — tracking weak sounds, vocabulary gaps, and progress toward concrete goals. The system adapts dialogue difficulty, vocabulary selection, and scenario complexity based on accumulated learner data, delivering measurably better outcomes than generic AI chat interfaces.<br/><br/>Owned the technical execution end to end: system architecture, backend, frontend, AI pipeline, payments, infrastructure, CI/CD, and landing page engineering."
       },
       {
@@ -103,7 +99,7 @@
         "name": "Lead Front-end & DevOps Engineer: <img class='company-logo' src='assets/images/ducky-logo.jpg' />ducky.app",
         "start": "12/2021",
         "end": "04/2022",
-        "descr": "Led frontend architecture and DevOps for a startup building a B2B benefits management platform (\"Benefits Cafeteria\") in a team of 10.<br/><br/>Owned all architectural decisions for the frontend: selected Angular + Tailwind as a design system, established project structure and conventions for scalability, and set up the full CI/CD pipeline. Balanced rapid feature delivery (startup pace) with maintainable, future-proof architecture.<br/><br/>Also contributed to DevOps — automated deployment processes, configured CI/CD, and established environment management. The product was not delivered to market due to funding constraints."
+        "descr": "Led frontend architecture and DevOps for a startup building a B2B benefits management platform (\"Benefits Cafeteria\") in a team of 10.<br/><br/>Owned all architectural decisions for the frontend: selected Angular + Tailwind as a design system, established project structure and conventions for scalability, and set up the full CI/CD pipeline. Balanced rapid feature delivery (startup pace) with maintainable, future-proof architecture.<br/><br/>Also contributed to DevOps — automated deployment processes, configured CI/CD, and established environment management."
       },
       {
         "name": "Front-end Tech Lead: <img class='company-logo' src='assets/images/robota-logo.png' /><a href='https://robota.ua' target='_blank' rel='noopener noreferrer'>robota.ua</a>",
