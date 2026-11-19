@@ -10,6 +10,8 @@ export interface CvHeader {
   fullname: string;
   title: string;
   location: string;
+  /** screen only: a short "open to" line */
+  availability?: string;
   links: CvLink[];
 }
 
@@ -44,13 +46,19 @@ export interface CvEducation {
   badges?: { pic: string; url: string; alt: string }[];
 }
 
+/** screen-only stat tiles above the summary */
+export interface CvHighlight {
+  value: string;
+  label: string;
+}
+
 export interface CvData {
   meta: {
     docTitle: string;
     pdf: { href: string; label: string };
-    other: { href: string; label: string };
   };
   header: CvHeader;
+  highlights?: CvHighlight[];
   summary: CvSummary;
   skills: CvSkills;
   sections: CvSection[];

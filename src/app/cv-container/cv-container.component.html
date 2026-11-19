@@ -1,26 +1,36 @@
-<section class="main-container">
-    <nav class="cv-actions no-print">
-        <a [href]="cvData.meta.pdf.href" target="_blank" rel="noopener">{{cvData.meta.pdf.label}}</a>
-        <a [href]="cvData.meta.other.href">{{cvData.meta.other.label}}</a>
-        <svg (click)="saveCv()" class="save-icon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" focusable="false">
-            <title>Print</title>
-            <svg x="50%" y="50%" width="1.5em" height="1.5em" overflow="visible" viewBox="0 0 24 24" fill="none">
-                <svg x="-12" y="-12" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                    />
-                </svg>
-            </svg>
-        </svg>
-    </nav>
+<div class="page-glow no-print" aria-hidden="true">
+    <span class="page-glow__blob -one"></span>
+    <span class="page-glow__blob -two"></span>
+    <span class="page-glow__blob -three"></span>
+</div>
 
+<nav class="cv-actions no-print" aria-label="CV actions">
+    <a class="cv-actions__btn -primary" [href]="cvData.meta.pdf.href" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+        </svg>
+        <span>{{cvData.meta.pdf.label}}</span>
+    </a>
+    <button type="button" class="cv-actions__btn -icon" (click)="saveCv()" title="Print" aria-label="Print">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+            <path d="M6 14h12v8H6z" />
+        </svg>
+    </button>
+</nav>
+
+<main class="main-container">
     <app-top-bio [data]="cvData.header"></app-top-bio>
-    <app-summary [data]="cvData.summary"></app-summary>
-    <app-skills [data]="cvData.skills"></app-skills>
-    <app-work-experience *ngFor="let section of cvData.sections" [data]="section"></app-work-experience>
-    <app-general-info [data]="cvData.education"></app-general-info>
-</section>
+
+    <ul *ngIf="highlights.length" class="highlights no-print reveal">
+        <li class="highlight" *ngFor="let h of highlights">
+            <span class="highlight__value">{{h.value}}</span>
+            <span class="highlight__label">{{h.label}}</span>
+        </li>
+    </ul>
+
+    <app-summary class="reveal" [data]="cvData.summary"></app-summary>
+    <app-skills class="reveal" [data]="cvData.skills"></app-skills>
+    <app-work-experience class="reveal" *ngFor="let section of cvData.sections" [data]="section"></app-work-experience>
+    <app-general-info class="reveal" [data]="cvData.education"></app-general-info>
+</main>

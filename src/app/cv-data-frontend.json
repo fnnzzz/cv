@@ -1,37 +1,91 @@
 {
   "meta": {
     "docTitle": "Vlad Feninets · Senior Frontend Engineer",
-    "pdf": { "href": "assets/Vlad-Feninets-CV-Frontend.pdf", "label": "Download PDF" },
-    "other": { "href": "./", "label": "Product & Applied AI version" }
+    "pdf": {
+      "href": "assets/Vlad-Feninets-CV-Frontend.pdf",
+      "label": "Download PDF"
+    }
   },
   "header": {
     "pic": "assets/images/avatar.png",
     "fullname": "Vlad Feninets",
     "title": "Senior / Staff Frontend Engineer · React, TypeScript, Real-time UI",
     "location": "Vienna, Austria · open to EU remote",
+    "availability": "Open to Senior / Staff Frontend roles",
     "links": [
-      { "name": "LinkedIn", "targetBlank": true, "href": "https://www.linkedin.com/in/fnnzzz/", "val": "linkedin.com/in/fnnzzz" },
-      { "name": "GitHub", "targetBlank": true, "href": "https://github.com/fnnzzz/", "val": "github.com/fnnzzz" },
-      { "name": "Email", "href": "mailto:v.feninets@gmail.com", "val": "v.feninets@gmail.com" },
-      { "name": "Web", "targetBlank": true, "href": "https://fnnzzz.github.io/cv/cv/?v=frontend", "val": "fnnzzz.github.io/cv/cv" }
+      {
+        "name": "LinkedIn",
+        "targetBlank": true,
+        "href": "https://www.linkedin.com/in/fnnzzz/",
+        "val": "linkedin.com/in/fnnzzz"
+      },
+      {
+        "name": "GitHub",
+        "targetBlank": true,
+        "href": "https://github.com/fnnzzz/",
+        "val": "github.com/fnnzzz"
+      },
+      {
+        "name": "Email",
+        "href": "mailto:v.feninets@gmail.com",
+        "val": "v.feninets@gmail.com"
+      },
+      {
+        "name": "Web",
+        "targetBlank": true,
+        "href": "https://fnnzzz.github.io/cv/cv/?v=frontend",
+        "val": "fnnzzz.github.io/cv/cv"
+      }
     ]
   },
+  "highlights": [
+    {
+      "value": "{{OVERALL_EXPERIENCE_YEARS}} yrs",
+      "label": "building web products"
+    },
+    {
+      "value": "Sub-second",
+      "label": "real-time updates in a crypto trading UI"
+    },
+    {
+      "value": "Red → green",
+      "label": "Core Web Vitals on key pages"
+    },
+    {
+      "value": "40 → 20 min",
+      "label": "CI build time at robota.ua"
+    }
+  ],
   "summary": {
     "title": "Summary",
     "paragraphs": [
       "Frontend engineer with {{OVERALL_EXPERIENCE_YEARS}} years of experience building complex, data-heavy web applications in React and TypeScript. Since 2022 on the frontend of a crypto exchange: real-time order books and charts over WebSockets, high-frequency state, arbitrary-precision trading math. Before that, frontend platform work for Ukraine's largest job board: architecture migration, CI speed, Core Web Vitals.",
-      "Comfortable beyond the frontend: Node.js, GraphQL and serverless AWS (certified). Co-founded <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI tutor with paying subscribers, and co-build <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace for coding agents; use agents daily behind review gates. Focused on hands-on frontend architecture, performance and shipping."
+      "Comfortable beyond the frontend: Node.js, GraphQL and serverless AWS (certified). Outside XBO: co-founded <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI tutor with paying subscribers; built <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace for coding agents, and the agent harness that runs both products' daily operations. Focused on hands-on frontend architecture, performance and shipping."
     ]
   },
   "skills": {
     "title": "Core Technologies",
     "rows": [
-      { "name": "Frontend", "items": "TypeScript (generics, conditional types, type guards, strict mode), React, Redux, RxJS (custom operators), Angular (Zone.js tuning, RxAngular, SSR), SCSS / PostCSS / Tailwind, design systems" },
-      { "name": "Real-time & data", "items": "SignalR, WebSockets, high-frequency streams, arbitrary-precision math, GraphQL (Apollo), REST" },
-      { "name": "Performance & quality", "items": "Core Web Vitals, CDN and caching (Cloudflare), Sentry, SonarQube, ESLint, TypeScript strict mode" },
-      { "name": "Tooling & delivery", "items": "GitHub Actions (incremental builds, caching), Webpack, developer CLI tools, Docker" },
-      { "name": "Backend & cloud", "items": "Node.js (Express, Koa), AWS serverless (Lambda, API Gateway, SQS, DynamoDB, CloudFront, Cognito), GCP, Firebase" },
-      { "name": "AI", "items": "LLM product work (LangChain, fine-tuned GPT models, Whisper); daily coding agents (Claude Code, Codex CLI) with consensus review and worktree isolation" }
+      {
+        "name": "Frontend",
+        "items": "TypeScript (generics, conditional types, strict mode), React, Redux, RxJS (custom operators), design systems, Tailwind / SCSS, Angular"
+      },
+      {
+        "name": "Real-time & data",
+        "items": "SignalR, WebSockets, high-frequency streams, arbitrary-precision math, GraphQL (Apollo), REST"
+      },
+      {
+        "name": "Quality & delivery",
+        "items": "Core Web Vitals, Sentry, SonarQube, ESLint, GitHub Actions (incremental builds, caching), Webpack, Docker"
+      },
+      {
+        "name": "Backend & cloud",
+        "items": "Node.js (Hono, Express), SQLite, Stripe, AWS serverless (Lambda, API Gateway, SQS, DynamoDB, CloudFront, Cognito), GCP, Firebase"
+      },
+      {
+        "name": "AI-native products",
+        "items": "OpenAI API, Whisper, LLM-as-judge review gates, agent-facing APIs; Claude Code and Codex CLI daily behind consensus review"
+      }
     ]
   },
   "sections": [
@@ -67,7 +121,7 @@
       ]
     },
     {
-      "title": "AI Products",
+      "title": "Own Products & Agent Systems",
       "entries": [
         {
           "name": "Co-Founder & Engineer · <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI language tutor",
@@ -75,9 +129,14 @@
           "descr": "Built end to end: frontend, serverless AWS backend, LLM pipeline with fine-tuned GPT models, Whisper speech recognition with phoneme-level pronunciation scoring, Stripe subscriptions. Live: 52 active paid subscriptions, ~780 users; revenue Stripe-verified on <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>TrustMRR</a>."
         },
         {
+          "name": "Creator · Agent operations harness (Hermes Agent + Outlab)",
+          "start": "2026",
+          "descr": "Built alone: an always-on Hermes Agent runs Mrrlin's and ELI's daily operations through Outlab, a TypeScript service (Hono, SQLite), with leases and idempotency keys, LLM-as-judge review gates before anything goes out, and Telegram channels to steer it."
+        },
+        {
           "name": "Co-Founder & Engineer · <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, AI execution workspace",
           "start": "2026",
-          "descr": "Turns one goal into a plan of tasks, routes them to Claude Code, Codex CLI and other models, sends weak output back through multi-model review, runs each task in its own git worktree and closes it only with proof (live URL, green build or sign-off). In daily use by our team."
+          "descr": "Designed and built: turns one goal into a plan of tasks, routes them to Claude Code, Codex CLI and other models, sends weak output back through multi-model review, runs each task in its own git worktree and closes it only with proof (live URL, green build or sign-off). In daily use by our team."
         }
       ]
     },
@@ -119,8 +178,16 @@
       "<a href='https://www.credly.com/badges/4986f3f5-3985-4467-9124-e18d26c59404/public_url' target='_blank' rel='noopener noreferrer'>AWS Certified Developer - Associate</a> · <a href='https://www.credly.com/badges/696fcac0-fe76-451c-a155-dba8dfdb6938/public_url' target='_blank' rel='noopener noreferrer'>AWS Certified Solutions Architect - Associate</a>"
     ],
     "badges": [
-      { "pic": "assets/images/developer-associate.png", "url": "https://www.credly.com/badges/4986f3f5-3985-4467-9124-e18d26c59404/public_url", "alt": "AWS Certified Developer - Associate" },
-      { "pic": "assets/images/solutions-arch-associate.png", "url": "https://www.credly.com/badges/696fcac0-fe76-451c-a155-dba8dfdb6938/public_url", "alt": "AWS Certified Solutions Architect - Associate" }
+      {
+        "pic": "assets/images/developer-associate.png",
+        "url": "https://www.credly.com/badges/4986f3f5-3985-4467-9124-e18d26c59404/public_url",
+        "alt": "AWS Certified Developer - Associate"
+      },
+      {
+        "pic": "assets/images/solutions-arch-associate.png",
+        "url": "https://www.credly.com/badges/696fcac0-fe76-451c-a155-dba8dfdb6938/public_url",
+        "alt": "AWS Certified Solutions Architect - Associate"
+      }
     ]
   }
 }
