@@ -60,7 +60,7 @@
     "title": "Summary",
     "paragraphs": [
       "Software engineer with {{OVERALL_EXPERIENCE_YEARS}} years of experience designing and shipping production web applications, real-time systems and cloud-native products. Since 2022 at XBO.com, building the real-time trading frontend of a crypto exchange. Strong in TypeScript, React, Node.js and AWS.",
-      "Outside XBO, builds AI products and agent systems end to end: co-founded <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI tutor with paying subscribers; built <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace that runs coding agents behind review gates; and built the Hermes-based agent harness that runs Mrrlin's and ELI's daily operations. Focused on hands-on product engineering, applied AI and reliable systems."
+      "Outside XBO, builds AI products and agent systems end to end: co-founded <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI tutor with paying subscribers; built <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace that runs coding agents behind review gates; and built the Hermes-based agent harness that runs ELI's and Mrrlin's email and support operations. Looking for a hands-on Senior or Staff IC role on a product team: product engineering, applied AI and reliable systems."
     ]
   },
   "skills": {
@@ -102,14 +102,15 @@
           "descr": "Architected and built the frontend of an award-winning crypto exchange (<a href='https://www.xbo.com/en/blog-xbo-news/best-digital-assets-exchange' target='_blank' rel='noopener noreferrer'>Best Digital Assets Exchange 2024</a>, <a href='https://www.xbo.com/en/blog-xbo-news/best-crypto-processing-solution' target='_blank' rel='noopener noreferrer'>Best Crypto Processing Solution 2025</a>): spot, futures, CFDs and a loyalty program in 10+ languages.",
           "bullets": [
             "<b>Real-time data:</b> designed the SignalR/WebSocket data layer with sub-second updates for order books, charts, tickers and positions; RxJS stream handling keeps the UI smooth under high-frequency updates.",
-            "<b>Correctness:</b> arbitrary-precision arithmetic for trading calculations; type-safe order forms with real-time validation."
+            "<b>Correctness:</b> arbitrary-precision arithmetic for trading calculations; type-safe order forms with real-time validation.",
+            "<b>AI-driven delivery:</b> since mid-2026 my work here runs through an agent harness I built around the team's Azure DevOps flow: agents turn user stories into implementation-ready specs, coding agents implement in isolated git worktrees, a multi-model consensus gate reviews the design and every PR, browser QA agents verify acceptance criteria with screenshot reports, and a design QA agent checks the result against Figma."
           ],
-          "stack": "React, Redux, TypeScript, SignalR, RxJS"
+          "stack": "React, Redux, TypeScript, SignalR, RxJS, Claude Code, Codex, MCP"
         }
       ]
     },
     {
-      "title": "Own Products & Agent Systems",
+      "title": "Own Products & Agent Systems (alongside XBO)",
       "entries": [
         {
           "name": "Co-Founder & Engineer · <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI language tutor",
@@ -124,7 +125,7 @@
         {
           "name": "Creator · Agent operations harness (Hermes Agent + Outlab)",
           "start": "2026",
-          "descr": "Built alone the system that runs the day-to-day operations of Mrrlin and ELI: an always-on Hermes Agent does the work through Outlab, a TypeScript service, steered from Telegram channels, one per workflow. In production daily.",
+          "descr": "Built alone the ops system behind ELI and Mrrlin (mailboxes, support inbox, reply triage): an always-on Hermes Agent does the work through Outlab, a TypeScript service, steered from Telegram channels, one per workflow. In production daily.",
           "bullets": [
             "<b>Agent-facing API:</b> Node.js/TypeScript (Hono, SQLite) with leases, claim tokens and idempotency keys, so agents work in parallel without double work; systemd timers, health checks and alerting.",
             "<b>Quality gates:</b> nothing the agent writes goes out until independent reviewer models score it against weighted criteria and hard rules (LLM-as-judge); replies are drafted for human approval.",

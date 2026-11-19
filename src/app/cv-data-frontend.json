@@ -60,7 +60,7 @@
     "title": "Summary",
     "paragraphs": [
       "Frontend engineer with {{OVERALL_EXPERIENCE_YEARS}} years of experience building complex, data-heavy web applications in React and TypeScript. Since 2022 on the frontend of a crypto exchange: real-time order books and charts over WebSockets, high-frequency state, arbitrary-precision trading math. Before that, frontend platform work for Ukraine's largest job board: architecture migration, CI speed, Core Web Vitals.",
-      "Comfortable beyond the frontend: Node.js, GraphQL and serverless AWS (certified). Outside XBO: co-founded <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI tutor with paying subscribers; built <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace for coding agents, and the agent harness that runs both products' daily operations. Focused on hands-on frontend architecture, performance and shipping."
+      "Comfortable beyond the frontend: Node.js, GraphQL and serverless AWS (certified). Outside XBO: co-founded <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI tutor with paying subscribers; built <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace for coding agents, and the agent harness that runs both products' email and support operations. Looking for a hands-on Senior or Staff frontend IC role: architecture, performance and shipping."
     ]
   },
   "skills": {
@@ -100,9 +100,10 @@
             "<b>Real-time data layer:</b> SignalR/WebSockets with sub-second updates for order books, charts, price tickers and portfolio positions.",
             "<b>State under load:</b> reactive state management with RxJS for high-frequency streams without UI degradation.",
             "<b>Financial precision:</b> arbitrary-precision arithmetic across trading calculations; advanced TypeScript patterns for type-safe financial computations.",
-            "<b>Order placement:</b> complex reactive forms with real-time validation."
+            "<b>Order placement:</b> complex reactive forms with real-time validation.",
+            "<b>AI-driven delivery:</b> since mid-2026 my work here runs through an agent harness I built around the team's Azure DevOps flow: agents turn user stories into implementation-ready specs, coding agents implement in isolated git worktrees, a multi-model consensus gate reviews the design and every PR, browser QA agents verify acceptance criteria with screenshot reports, and a design QA agent checks the result against Figma."
           ],
-          "stack": "React, Redux, TypeScript, SignalR, RxJS"
+          "stack": "React, Redux, TypeScript, SignalR, RxJS, Claude Code, Codex, MCP"
         },
         {
           "name": "Frontend Engineer → Frontend Tech Lead · <img class='company-logo' src='assets/images/robota-logo.png' alt='' /><a href='https://robota.ua' target='_blank' rel='noopener noreferrer'>robota.ua</a>",
@@ -121,7 +122,7 @@
       ]
     },
     {
-      "title": "Own Products & Agent Systems",
+      "title": "Own Products & Agent Systems (alongside XBO)",
       "entries": [
         {
           "name": "Co-Founder & Engineer · <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI language tutor",
@@ -131,7 +132,7 @@
         {
           "name": "Creator · Agent operations harness (Hermes Agent + Outlab)",
           "start": "2026",
-          "descr": "Built alone: an always-on Hermes Agent runs Mrrlin's and ELI's daily operations through Outlab, a TypeScript service (Hono, SQLite), with leases and idempotency keys, LLM-as-judge review gates before anything goes out, and Telegram channels to steer it."
+          "descr": "Built alone: an always-on Hermes Agent runs ELI's and Mrrlin's email and support operations through Outlab, a TypeScript service (Hono, SQLite), with leases and idempotency keys, LLM-as-judge review gates before anything goes out, and Telegram channels to steer it."
         },
         {
           "name": "Co-Founder & Engineer · <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, AI execution workspace",
