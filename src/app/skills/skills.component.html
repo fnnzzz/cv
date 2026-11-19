@@ -1,19 +1,10 @@
-<article class="article-block">
-    <h4 class="article-title">{{data.blockname}}:</h4>
+<section class="article-block">
+    <h2 class="article-title">{{data.title}}</h2>
 
-    <ul class="article-list">
-        <li *ngFor="let skill of data.list" [class.-detailed]="skill.descr">
-            {{ skill.name}}
-
-            <p *ngIf="skill.descr" [innerHTML]="skill.descr"></p>
-
-            <ul *ngIf="skill.badges" class="badges">
-                <li *ngFor="let badge of skill.badges" [title]="badge.url ? 'achieved' : 'not achieved yet, in progress'">
-                    <a class="article-badge" href="{{ badge.url }}" target="_blank">
-                        <img src="{{badge.pic}}" />
-                    </a>                    
-                </li>
-            </ul>
-        </li>
-    </ul>
-</article>
+    <dl class="tech-list">
+        <ng-container *ngFor="let row of data.rows">
+            <dt>{{row.name}}</dt>
+            <dd>{{row.items}}</dd>
+        </ng-container>
+    </dl>
+</section>

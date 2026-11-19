@@ -1,17 +1,17 @@
-<article class="article-block">
-    <h4 class="article-title" title="{{getTotalYearsInIT}} years overall">{{data.blockname}}:</h4>
+<section class="article-block">
+    <h2 class="article-title">{{data.title}}</h2>
 
-    <ul class="article-list">
-        <li *ngFor="let w of data.list" [class.-detailed]="w.descr">
-            <span [innerHTML]="w.name"></span>
-            ({{w.start}} - 
-            <span *ngIf="!w.end" class="-now" title="up until today">now</span>
-            <span *ngIf="w.end">{{ w.end }}</span>)
-            <p [innerHTML]="w.descr"></p>
+    <ul class="entries" [class.-compact]="data.compact">
+        <li class="entry" *ngFor="let e of data.entries">
+            <div class="entry__head">
+                <span class="entry__name" [innerHTML]="e.name"></span>
+                <span class="entry__dates">{{e.start}} - <ng-container *ngIf="e.end; else now">{{e.end}}</ng-container><ng-template #now>now</ng-template></span>
+            </div>
+            <p *ngIf="e.descr" class="entry__descr" [innerHTML]="e.descr"></p>
+            <ul *ngIf="e.bullets?.length" class="entry__bullets">
+                <li *ngFor="let b of e.bullets" [innerHTML]="b"></li>
+            </ul>
+            <p *ngIf="e.stack" class="entry__stack"><b>Stack:</b> {{e.stack}}</p>
         </li>
-        <!-- {d.list.map(w => <li key={w.name} class={w.descr ? '-detailed' : ''}>
-            {w.name} ({w.start} — <EndOrNowComponent date={w.end} />)
-            <p dangerouslySetInnerHTML={{__html: w.descr}} />
-        </li>)} -->
     </ul>
-</article>
+</section>

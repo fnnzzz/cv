@@ -2,13 +2,25 @@
     position: relative;
 }
 
-.save-icon {
+.cv-actions {
     position: absolute;
     top: 15px;
-    right: 15px;
-    cursor: pointer;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 13px;
+}
 
-    @media print {
-        display: none;
+.save-icon {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 970px) {
+    .cv-actions {
+        position: static;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
     }
 }

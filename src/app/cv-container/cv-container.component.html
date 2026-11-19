@@ -1,6 +1,9 @@
 <section class="main-container">
-    <svg (click)="saveCv()" class="save-icon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" focusable="false">
-        <g id="tuiIconDownloadLarge" xmlns="http://www.w3.org/2000/svg">
+    <nav class="cv-actions no-print">
+        <a [href]="cvData.meta.pdf.href" target="_blank" rel="noopener">{{cvData.meta.pdf.label}}</a>
+        <a [href]="cvData.meta.other.href">{{cvData.meta.other.label}}</a>
+        <svg (click)="saveCv()" class="save-icon" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" focusable="false">
+            <title>Print</title>
             <svg x="50%" y="50%" width="1.5em" height="1.5em" overflow="visible" viewBox="0 0 24 24" fill="none">
                 <svg x="-12" y="-12" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -12,12 +15,12 @@
                     />
                 </svg>
             </svg>
-        </g>
-    </svg>
+        </svg>
+    </nav>
 
-    <app-top-bio [data]="cvData.topbio"></app-top-bio>
-    <app-general-info [data]="cvData['general-info']"></app-general-info>    
-    <app-summary [data]="cvData['summary']"></app-summary>
+    <app-top-bio [data]="cvData.header"></app-top-bio>
+    <app-summary [data]="cvData.summary"></app-summary>
     <app-skills [data]="cvData.skills"></app-skills>
-    <app-work-experience [data]="cvData['work-experience']"></app-work-experience>
+    <app-work-experience *ngFor="let section of cvData.sections" [data]="section"></app-work-experience>
+    <app-general-info [data]="cvData.education"></app-general-info>
 </section>

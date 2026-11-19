@@ -1,5 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import type cvDataType from '../cv-data.json'
+import { Component, Input } from '@angular/core';
+import type { CvSummary } from '../cv.types';
 import { getOverallExperienceYears } from '../utils';
 
 @Component({
@@ -7,18 +7,10 @@ import { getOverallExperienceYears } from '../utils';
   templateUrl: './summary.component.html',
   styleUrls: ['./summary.component.scss']
 })
-export class SummaryComponent implements OnInit {
-  @Input() data!: typeof cvDataType['summary']
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class SummaryComponent {
+  @Input() data!: CvSummary
 
   get paragraphsFormatted() {
-    return this.data.paragraphs.map(p => {
-      return p.replace('{{OVERALL_EXPERIENCE_YEARS}}', getOverallExperienceYears())
-    })
+    return this.data.paragraphs.map(p => p.replace('{{OVERALL_EXPERIENCE_YEARS}}', getOverallExperienceYears()))
   }
-
 }
