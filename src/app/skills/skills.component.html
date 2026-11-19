@@ -2,14 +2,9 @@
     <h2 class="article-title">{{data.title}}</h2>
 
     <dl class="tech-list">
-        <ng-container *ngFor="let row of rows">
+        <ng-container *ngFor="let row of data.rows">
             <dt>{{row.name}}</dt>
-            <dd>
-                <span class="print-only">{{row.items}}</span>
-                <ul class="chips screen-only">
-                    <li class="chip" *ngFor="let t of row.tokens">{{t}}</li>
-                </ul>
-            </dd>
+            <dd>{{row.items}}</dd>
         </ng-container>
     </dl>
 </section>

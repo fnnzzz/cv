@@ -49,20 +49,6 @@ ul {
     margin: 0;
 }
 
-app-top-bio,
-app-summary,
-app-skills,
-app-work-experience,
-app-general-info {
-    display: block;
-}
-
-@media screen {
-    .print-only {
-        display: none !important;
-    }
-}
-
 .main-container {
     background-color: #fff;
     width: 70vw;
@@ -285,17 +271,8 @@ app-general-info {
         print-color-adjust: exact;
     }
 
-    .no-print,
-    .screen-only {
+    .no-print {
         display: none !important;
-    }
-
-    .top-bio__link {
-        color: inherit;
-    }
-
-    .top-bio__link-val {
-        color: $accent;
     }
 
     .main-container {
@@ -395,4 +372,157 @@ app-general-info {
     }
 }
 
-@import "screen";
+// ---------------------- screen refinements (Claude Design pass on the old look; print rules above stay as they are)
+
+@media screen {
+    .print-only {
+        display: none !important;
+    }
+
+    a:link,
+    a:visited {
+        color: #0369a1;
+    }
+
+    a:hover {
+        border-bottom: none;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    .main-container {
+        max-width: 920px;
+        border-radius: 14px;
+        padding: 40px 56px 56px;
+        line-height: 1.55;
+        box-shadow: 0 1px 2px rgba(15, 23, 42, .06), 0 18px 48px -20px rgba(15, 23, 42, .45);
+    }
+
+    .cv-actions__pdf {
+        display: inline-flex;
+        align-items: center;
+        padding: 5px 12px;
+        border: 1px solid #cbd5e1;
+        border-radius: 999px;
+        font-weight: 500;
+
+        &:hover {
+            text-decoration: none;
+            border-color: #0369a1;
+        }
+    }
+
+    .top-bio {
+        &__wrap {
+            gap: 28px;
+            padding-bottom: 26px;
+            border-bottom: 0;
+        }
+
+        &__photo {
+            width: 132px;
+            height: 132px;
+            flex-basis: 132px;
+            box-shadow: 0 0 0 4px #fff, 0 0 0 5px #e2e8f0, 0 10px 24px -12px rgba(15, 23, 42, .5);
+        }
+
+        &__fullname {
+            font-size: 30px;
+            letter-spacing: .04em;
+            color: #111827;
+        }
+
+        &__title {
+            margin-top: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #1f2933;
+        }
+
+        &__location {
+            margin-top: 6px;
+            font-size: 14.5px;
+            color: #64748b;
+        }
+
+        &__links {
+            margin-top: 12px;
+            gap: 4px 16px;
+            font-size: 14px;
+        }
+    }
+
+    .article-block {
+        margin-top: 32px;
+    }
+
+    .article-title {
+        display: inline-block;
+        font-size: 13px;
+        letter-spacing: .12em;
+        color: #0369a1;
+        padding-bottom: 6px;
+        margin-bottom: 14px;
+        border-bottom: 2px solid #0369a1;
+    }
+
+    .article-descr {
+        color: #334155;
+
+        &.-summary:first-of-type {
+            color: #1f2933;
+        }
+    }
+
+    .tech-list {
+        grid-template-columns: 150px 1fr;
+        gap: 6px 20px;
+        color: #334155;
+
+        dt {
+            color: #111827;
+        }
+    }
+
+    .entries .entry:not(:last-child) {
+        margin-bottom: 22px;
+    }
+
+    .entry {
+        &__name {
+            font-size: 16px;
+            color: #111827;
+        }
+
+        &__dates {
+            font-size: 13px;
+            color: #64748b;
+            font-variant-numeric: tabular-nums;
+        }
+
+        &__descr,
+        &__bullets,
+        &__stack {
+            color: #334155;
+        }
+
+        &__stack {
+            font-size: 13.5px;
+            color: #64748b;
+        }
+
+        &__bullets li {
+            margin-top: 4px;
+        }
+    }
+
+    @media (max-width: 970px) {
+        .main-container {
+            padding: 24px 18px 32px;
+        }
+
+        .top-bio__links {
+            justify-content: center;
+        }
+    }
+}
