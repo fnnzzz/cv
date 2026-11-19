@@ -1,4 +1,4 @@
-<article class="article-block">
-    <h4 class="article-title">{{data.blockname}}:</h4>    
+<section class="article-block">
+    <h2 class="article-title">{{data.title}}</h2>
     <p class="article-descr -summary" *ngFor="let paragraph of paragraphsFormatted" [innerHTML]="paragraph"></p>
-</article>
+</section>

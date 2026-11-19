@@ -1,22 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
-import type cvDataType from '../cv-data.json'
-import { getOverallExperienceYears } from '../utils';
+import { Component, Input } from '@angular/core';
+import type { CvSection } from '../cv.types';
 
 @Component({
   selector: 'app-work-experience',
   templateUrl: './work-experience.component.html',
   styleUrls: ['./work-experience.component.scss']
 })
-export class WorkExperienceComponent implements OnInit {
-  @Input() data!: typeof cvDataType['work-experience']
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-  get getTotalYearsInIT(): string {
-    return getOverallExperienceYears()
-  }
-
+export class WorkExperienceComponent {
+  @Input() data!: CvSection
 }

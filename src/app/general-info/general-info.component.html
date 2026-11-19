@@ -1,11 +1,13 @@
-<article class="article-block">
-    <h4 class="article-title">{{data.blockname}}:</h4>
+<section class="article-block">
+    <h2 class="article-title">{{data.title}}</h2>
 
-    <p class="article-descr">
-        <span title="Current city">{{data["city"].key}}:</span> {{data["city"].val}}
-    </p>
+    <p class="article-descr" *ngFor="let line of data.lines" [innerHTML]="line"></p>
 
-    <p class="article-descr">
-        <span title="Education">{{data.education.key}}:</span> {{data.education.val}}
-    </p>
-</article>
+    <ul *ngIf="data.badges?.length" class="badges no-print">
+        <li *ngFor="let badge of data.badges">
+            <a class="article-badge" [href]="badge.url" target="_blank" rel="noopener">
+                <img [src]="badge.pic" [alt]="badge.alt" [title]="badge.alt" />
+            </a>
+        </li>
+    </ul>
+</section>

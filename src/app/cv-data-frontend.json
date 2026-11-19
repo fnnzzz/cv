@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "docTitle": "Vlad Feninets · Senior Frontend Engineer",
+    "pdf": { "href": "assets/Vlad-Feninets-CV-Frontend.pdf", "label": "Download PDF" },
+    "other": { "href": "./", "label": "Product & Applied AI version" }
+  },
+  "header": {
+    "pic": "assets/images/avatar.png",
+    "fullname": "Vlad Feninets",
+    "title": "Senior / Staff Frontend Engineer · React, TypeScript, Real-time UI",
+    "location": "Vienna, Austria · open to EU remote",
+    "links": [
+      { "name": "LinkedIn", "targetBlank": true, "href": "https://www.linkedin.com/in/fnnzzz/", "val": "linkedin.com/in/fnnzzz" },
+      { "name": "GitHub", "targetBlank": true, "href": "https://github.com/fnnzzz/", "val": "github.com/fnnzzz" },
+      { "name": "Email", "href": "mailto:aiuxsolutions.com@gmail.com", "val": "aiuxsolutions.com@gmail.com" },
+      { "name": "Web", "targetBlank": true, "href": "https://fnnzzz.github.io/cv/cv/?v=frontend", "val": "fnnzzz.github.io/cv/cv" }
+    ]
+  },
+  "summary": {
+    "title": "Summary",
+    "paragraphs": [
+      "Frontend engineer with {{OVERALL_EXPERIENCE_YEARS}} years of experience building complex, data-heavy web applications in React and TypeScript. Since 2022 on the frontend of a crypto exchange: real-time order books and charts over WebSockets, high-frequency state, arbitrary-precision trading math. Before that, frontend platform work for Ukraine's largest job board: architecture migration, CI speed, Core Web Vitals.",
+      "Comfortable beyond the frontend: Node.js, GraphQL and serverless AWS (certified). Co-founded <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI tutor with paying subscribers, and co-build <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace for coding agents; use agents daily behind review gates. Focused on hands-on frontend architecture, performance and shipping."
+    ]
+  },
+  "skills": {
+    "title": "Core Technologies",
+    "rows": [
+      { "name": "Frontend", "items": "TypeScript (generics, conditional types, type guards, strict mode), React, Redux, RxJS (custom operators), Angular (Zone.js tuning, RxAngular, SSR), SCSS / PostCSS / Tailwind, design systems" },
+      { "name": "Real-time & data", "items": "SignalR, WebSockets, high-frequency streams, arbitrary-precision math, GraphQL (Apollo), REST" },
+      { "name": "Performance & quality", "items": "Core Web Vitals, CDN and caching (Cloudflare), Sentry, SonarQube, ESLint, TypeScript strict mode" },
+      { "name": "Tooling & delivery", "items": "GitHub Actions (incremental builds, caching), Webpack, developer CLI tools, Docker" },
+      { "name": "Backend & cloud", "items": "Node.js (Express, Koa), AWS serverless (Lambda, API Gateway, SQS, DynamoDB, CloudFront, Cognito), GCP, Firebase" },
+      { "name": "AI", "items": "LLM product work (LangChain, fine-tuned GPT models, Whisper); daily coding agents (Claude Code, Codex CLI) with consensus review and worktree isolation" }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Selected Experience",
+      "entries": [
+        {
+          "name": "Senior Frontend Engineer · <img class='company-logo' src='assets/images/xbo-logo.webp' alt='' /><a href='https://xbo.com' target='_blank' rel='noopener noreferrer'>XBO.com</a>, crypto exchange",
+          "start": "04/2022",
+          "descr": "Architected and built the frontend of an award-winning crypto exchange (<a href='https://www.xbo.com/en/blog-xbo-news/best-digital-assets-exchange' target='_blank' rel='noopener noreferrer'>Best Digital Assets Exchange 2024</a>, <a href='https://www.xbo.com/en/blog-xbo-news/best-crypto-processing-solution' target='_blank' rel='noopener noreferrer'>Best Crypto Processing Solution 2025</a>): spot, futures, CFDs and a loyalty program in 10+ languages.",
+          "bullets": [
+            "<b>Real-time data layer:</b> SignalR/WebSockets with sub-second updates for order books, charts, price tickers and portfolio positions.",
+            "<b>State under load:</b> reactive state management with RxJS for high-frequency streams without UI degradation.",
+            "<b>Financial precision:</b> arbitrary-precision arithmetic across trading calculations; advanced TypeScript patterns for type-safe financial computations.",
+            "<b>Order placement:</b> complex reactive forms with real-time validation."
+          ],
+          "stack": "React, Redux, TypeScript, SignalR, RxJS"
+        },
+        {
+          "name": "Frontend Engineer → Frontend Tech Lead · <img class='company-logo' src='assets/images/robota-logo.png' alt='' /><a href='https://robota.ua' target='_blank' rel='noopener noreferrer'>robota.ua</a>",
+          "start": "11/2016",
+          "end": "12/2021",
+          "descr": "Ukraine's largest job board: 6.5M+ resumes, 100K+ active listings, 35K+ companies. Grew from mid-level engineer to tech lead of the frontend platform.",
+          "bullets": [
+            "<b>Architecture:</b> moved a 20-year-old .NET/jQuery monolith to Angular + GraphQL (Apollo) services with a Tailwind component design system; built the mobile SPA from scratch.",
+            "<b>CI/CD:</b> migrated TeamCity to GitHub Actions with dynamic agents, incremental builds and caching: build time from ~40 to ~20 min, no more CI queues.",
+            "<b>Web Vitals:</b> Cloudflare optimizations, static caching and RxAngular to cut zone.js overhead; critical pages moved from red to green.",
+            "<b>Reliability:</b> TypeScript strict mode, SonarQube in PRs, wider ESLint coverage, Sentry with automatic owner assignment; fewer production incidents.",
+            "<b>Developer experience:</b> interactive CLI tools for routine work (library generation, GraphQL schema regeneration).",
+            "<b>Beyond frontend:</b> serverless GEOHASH-based ETA service for public transport on GCP (Cloud Functions + Datastore) that reduced Google Maps API costs."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AI Products",
+      "entries": [
+        {
+          "name": "Co-Founder & Engineer · <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI language tutor",
+          "start": "2025",
+          "descr": "Built end to end: frontend, serverless AWS backend, LLM pipeline with fine-tuned GPT models, Whisper speech recognition with phoneme-level pronunciation scoring, Stripe subscriptions. Live: 52 active paid subscriptions, ~780 users; revenue Stripe-verified on <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>TrustMRR</a>."
+        },
+        {
+          "name": "Co-Founder & Engineer · <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, AI execution workspace",
+          "start": "2026",
+          "descr": "Turns one goal into a plan of tasks, routes them to Claude Code, Codex CLI and other models, sends weak output back through multi-model review, runs each task in its own git worktree and closes it only with proof (live URL, green build or sign-off). In daily use by our team."
+        }
+      ]
+    },
+    {
+      "title": "Earlier Experience",
+      "compact": true,
+      "entries": [
+        {
+          "name": "Lead Frontend & DevOps Engineer · <img class='company-logo' src='assets/images/ducky-logo.jpg' alt='' />ducky.app",
+          "start": "12/2021",
+          "end": "04/2022",
+          "descr": "B2B benefits platform startup: chose Angular + Tailwind, set up the frontend architecture, conventions, CI/CD and environments."
+        },
+        {
+          "name": "Course Author · <img class='company-logo' src='assets/images/itvdn-logo.png' alt='' /><a href='https://itvdn.com/video/react_adv' target='_blank' rel='noopener noreferrer'>ITVDN</a> (part-time)",
+          "start": "03/2017",
+          "end": "07/2017",
+          "descr": "Published course on advanced React and Redux patterns (<a href='https://www.youtube.com/playlist?list=PLvItDmb0sZw9CbcmbrRsdWSxPcr3qi4eZ' target='_blank' rel='noopener noreferrer'>YouTube</a>)."
+        },
+        {
+          "name": "Frontend Engineer · Lazard Export",
+          "start": "04/2016",
+          "end": "09/2016",
+          "descr": "React/Redux dashboard for an IoT door access system; Webpack/PostCSS build set up from scratch."
+        },
+        {
+          "name": "Frontend Engineer · <img class='company-logo' src='assets/images/itcg-logo.jpg' alt='' />ITCG (digital agency)",
+          "start": "06/2015",
+          "end": "04/2016",
+          "descr": "Landing pages, interactive ad banners and a full-stack marketplace (Django + JS)."
+        }
+      ]
+    }
+  ],
+  "education": {
+    "title": "Education & Certifications",
+    "lines": [
+      "Computer Engineering, Bachelor's degree (2012 - 2016)",
+      "<a href='https://www.credly.com/badges/4986f3f5-3985-4467-9124-e18d26c59404/public_url' target='_blank' rel='noopener noreferrer'>AWS Certified Developer - Associate</a> · <a href='https://www.credly.com/badges/696fcac0-fe76-451c-a155-dba8dfdb6938/public_url' target='_blank' rel='noopener noreferrer'>AWS Certified Solutions Architect - Associate</a>"
+    ],
+    "badges": [
+      { "pic": "assets/images/developer-associate.png", "url": "https://www.credly.com/badges/4986f3f5-3985-4467-9124-e18d26c59404/public_url", "alt": "AWS Certified Developer - Associate" },
+      { "pic": "assets/images/solutions-arch-associate.png", "url": "https://www.credly.com/badges/696fcac0-fe76-451c-a155-dba8dfdb6938/public_url", "alt": "AWS Certified Solutions Architect - Associate" }
+    ]
+  }
+}

@@ -1,18 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import type { CvSkills } from '../cv.types';
 
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss']
 })
-export class SkillsComponent implements OnInit {
-  @Input() data: any
-
-  constructor() { }
-
-  ngOnInit(): void {
-    console.log(this.data);
-    
-  }
-
+export class SkillsComponent {
+  @Input() data!: CvSkills
 }
