@@ -12,7 +12,7 @@
     "links": [
       { "name": "LinkedIn", "targetBlank": true, "href": "https://www.linkedin.com/in/fnnzzz/", "val": "linkedin.com/in/fnnzzz" },
       { "name": "GitHub", "targetBlank": true, "href": "https://github.com/fnnzzz/", "val": "github.com/fnnzzz" },
-      { "name": "Email", "href": "mailto:aiuxsolutions.com@gmail.com", "val": "aiuxsolutions.com@gmail.com" },
+      { "name": "Email", "href": "mailto:v.feninets@gmail.com", "val": "v.feninets@gmail.com" },
       { "name": "Web", "targetBlank": true, "href": "https://fnnzzz.github.io/cv/cv/?v=frontend", "val": "fnnzzz.github.io/cv/cv" }
     ]
   },
