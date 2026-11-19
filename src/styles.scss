@@ -49,6 +49,20 @@ ul {
     margin: 0;
 }
 
+app-top-bio,
+app-summary,
+app-skills,
+app-work-experience,
+app-general-info {
+    display: block;
+}
+
+@media screen {
+    .print-only {
+        display: none !important;
+    }
+}
+
 .main-container {
     background-color: #fff;
     width: 70vw;
@@ -271,8 +285,17 @@ ul {
         print-color-adjust: exact;
     }
 
-    .no-print {
+    .no-print,
+    .screen-only {
         display: none !important;
+    }
+
+    .top-bio__link {
+        color: inherit;
+    }
+
+    .top-bio__link-val {
+        color: $accent;
     }
 
     .main-container {
@@ -371,3 +394,5 @@ ul {
         vertical-align: -1px;
     }
 }
+
+@import "screen";

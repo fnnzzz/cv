@@ -11,7 +11,12 @@
             <ul *ngIf="e.bullets?.length" class="entry__bullets">
                 <li *ngFor="let b of e.bullets" [innerHTML]="b"></li>
             </ul>
-            <p *ngIf="e.stack" class="entry__stack"><b>Stack:</b> {{e.stack}}</p>
+            <ng-container *ngIf="e.stack">
+                <p class="entry__stack print-only"><b>Stack:</b> {{e.stack}}</p>
+                <ul class="chips -small screen-only">
+                    <li class="chip" *ngFor="let t of stackTokens(e.stack)">{{t}}</li>
+                </ul>
+            </ng-container>
         </li>
     </ul>
 </section>
