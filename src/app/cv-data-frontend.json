@@ -106,12 +106,12 @@
       "title": "Independent Projects",
       "entries": [
         {
-          "name": "<a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI English tutor · built the whole technical side",
+          "name": "<img class='company-logo company-logo--mark' src='assets/images/eli-logo.svg' alt='' /><a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI English tutor · built the whole technical side",
           "start": "11/2024",
           "descr": "Co-founded with partners who run the business side. Frontend, serverless AWS backend, Stripe subscriptions, and the voice pipeline: Whisper, phoneme-level pronunciation scoring, LLM dialogue on fine-tuned GPT models driven by a learner profile. Live, as of 11/2026: <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a>, ~780 registered users."
         },
         {
-          "name": "<a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
+          "name": "<img class='company-logo company-logo--mark' src='assets/images/mrrlin-logo.png' alt='' /><a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
           "start": "06/2026",
           "descr": "Co-founded, in beta: a workspace where a Director turns one goal into a task plan for Claude Code, Codex CLI and other models. Next.js 15 operator dashboard (real-time task board, run inspector) over a Hono API and Supabase PostgreSQL; its public MCP package on npm (about 27,000 downloads in 30 days, Nov 2026) runs each task in its own git worktree. Separately, built alone the always-on agent harness (Hermes Agent, Node.js/TypeScript) that runs both products' operations in production, steered from Telegram: SEO, video content, helpdesk and refunds, social posting, alerts, with LLM review gates before anything goes out."
         }
