@@ -41,7 +41,7 @@
   "summary": {
     "title": "Summary",
     "paragraphs": [
-      "Frontend engineer with {{OVERALL_EXPERIENCE_YEARS}} years building complex, data-heavy web applications (React, Angular, TypeScript). Since 2022, building the real-time trading frontend of <a href='https://xbo.com' target='_blank' rel='noopener noreferrer'>XBO.com</a>, a crypto exchange: heavy WebSocket traffic where performance matters, exact decimal trading math, 17 languages. Before that, frontend tech lead at robota.ua, the largest job board in Ukraine: architecture migration, CI speed, Core Web Vitals.",
+      "Frontend engineer with {{OVERALL_EXPERIENCE_YEARS}} years building complex, data-heavy web applications (React, Angular, TypeScript). Since 2022, building the real-time trading frontend of <a href='https://xbo.com' target='_blank' rel='noopener noreferrer'>XBO.com</a>, an award-winning crypto exchange: heavy WebSocket traffic where performance matters, exact decimal trading math, 17 languages. Since mid-2026, delivering there through an agent workflow with coding agents on each task and multi-model PR review. Before that, frontend tech lead at robota.ua, the largest job board in Ukraine: architecture migration, CI speed, Core Web Vitals.",
       "Comfortable beyond the frontend: Node.js, GraphQL and serverless AWS (certified). As independent projects, built the whole technical side of <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI English tutor with <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a>, and designed and built <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace for coding agents."
     ]
   },
