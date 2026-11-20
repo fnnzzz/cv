@@ -32,8 +32,4 @@ export class CvContainerComponent implements OnInit {
     this.title.setTitle(this.cvData.meta.docTitle);
   }
 
-  saveCv() {
-    this.windowRef?.print()
-  }
-
 }
