@@ -62,7 +62,7 @@
       },
       {
         "name": "AI",
-        "items": "OpenAI API, Whisper, fine-tuning, RAG, MCP, LLM review gates, agent orchestration (Claude Code, Codex CLI, Hermes Agent)"
+        "items": "OpenAI API, Whisper, fine-tuning, RAG, MCP, agent harnesses (Hermes Agent: leases, idempotency, Telegram control), LLM review gates, coding agents (Claude Code, Codex CLI)"
       }
     ]
   },
