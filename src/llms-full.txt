@@ -1,0 +1,79 @@
+# Vlad Feninets
+
+Senior Product Engineer · TypeScript, Node.js, AI agents in production
+
+Vienna, Austria (CET) · open to EU remote
+
+- LinkedIn: https://www.linkedin.com/in/fnnzzz/
+- GitHub: https://github.com/fnnzzz/
+- Email: v.feninets@gmail.com
+- Web: https://fnnzzz.github.io/cv/cv/
+
+## Summary
+
+Senior engineer with 11 years in JavaScript and TypeScript, frontend-heavy full stack. Since 2022, building the real-time trading frontend of [XBO.com](https://xbo.com), a crypto exchange: heavy WebSocket traffic where performance matters, exact decimal money math, 17 languages. Before that, frontend tech lead at robota.ua, the largest job board in Ukraine.
+
+As independent projects, built the whole technical side of [ELI](https://elispeak.com), an AI English tutor with [52 active paid subscriptions](https://trustmrr.com/startup/elispeak) (Whisper and LLM voice pipeline, serverless AWS, Stripe billing), designed and built [Mrrlin](https://mrrlin.com), a workspace for coding agents, and built alone the agent harness that runs both products' operations.
+
+## Experience
+
+### Senior Frontend Engineer · [XBO.com](https://xbo.com), crypto exchange (04/2022 - now)
+
+Web trading frontend and client area of an award-winning crypto exchange (Best Digital Assets Exchange 2024, Best Crypto Processing Solution 2025): spot, futures and CFDs.
+
+- Designed the real-time data layer on SignalR/WebSockets: order books, charts, tickers and positions update in under a second.
+- Kept the UI responsive under high-frequency streams with RxJS-based state management.
+- Moved trading calculations to arbitrary-precision arithmetic and built type-safe order forms with real-time validation.
+- Ships client-area flows with the backend, QA and compliance teams (withdrawals, fiat bank-account whitelisting, DAC8 reporting data) in 17 languages.
+- Since mid-2026, delivers through an agent workflow of his own around the team's Azure DevOps flow: agents turn user stories into implementation-ready specs, coding agents implement each task, a multi-model consensus gate reviews the design and each of his PRs, and browser and Figma QA agents verify the result.
+
+Stack: React, Redux, TypeScript, SignalR, RxJS; Claude Code, Codex, MCP
+
+### Lead Frontend & DevOps Engineer · ducky.app (12/2021 - 04/2022)
+
+B2B benefits platform startup: chose Angular + Tailwind, set up the frontend architecture, CI/CD and environments.
+
+### Frontend Engineer → Frontend Tech Lead · [robota.ua](https://robota.ua) (11/2016 - 12/2021)
+
+The largest job board in Ukraine (6.5M+ resumes). Grew from mid-level engineer to tech lead of the frontend platform.
+
+- Moved the 20-year-old product's .NET/jQuery monolith to Angular + GraphQL services; built the mobile SPA from scratch.
+- Cut CI builds from about 40 to about 20 minutes (TeamCity to GitHub Actions, incremental builds, caching).
+- Moved key pages from red to green Core Web Vitals; introduced TypeScript strict mode, SonarQube and Sentry.
+
+## Independent Projects
+
+### [ELI](https://elispeak.com), AI English tutor · built the whole technical side (11/2024 - now)
+
+Co-founded with partners who run the business side. Pronunciation and goal-based speaking practice (job interviews, work meetings, relocation). Live, as of 11/2026: [52 active paid subscriptions](https://trustmrr.com/startup/elispeak), ~780 registered users.
+
+- Built the voice pipeline: Whisper speech recognition on serverless GPU and phoneme-level pronunciation scoring.
+- Fine-tuned GPT models for the tutor's dialogue (LangChain), driven by a learner profile updated after every conversation.
+- Built the serverless, event-driven AWS backend (Lambda, API Gateway, SQS, DynamoDB, CloudFront, Cognito) plus GCP/Firebase, and Stripe subscriptions tiered by speaking minutes.
+
+### [Mrrlin](https://mrrlin.com), workspace for coding agents · designed and built (06/2026 - now)
+
+Co-founded, in beta. Grew out of running ELI, where coding agents needed control, verification and memory; most coding work on both products now runs through it. A Director turns one goal into a task plan and routes tasks to Claude Code, Codex CLI and other models. Separately, built alone the agent harness that runs the day-to-day operations of both products in production.
+
+- Mrrlin: a TypeScript monorepo with a Next.js 15 operator dashboard, a Hono REST API with shared Zod schemas and generated OpenAPI, Supabase PostgreSQL with Row Level Security, and Stripe subscriptions; tested with pgTAP, Playwright end-to-end tests and a fast CI gate.
+- Task state lives in a strictly typed PostgreSQL state machine with atomic transition checks and sticky agent assignment, replacing flat Markdown task files.
+- Its public npm package @mrrlin-dev/mcp ([~30k downloads a month](https://www.npmjs.com/package/@mrrlin-dev/mcp)), an MCP server plus a background bridge that runs on Linux, macOS and Windows, lets a local Claude Code or Codex agent take Mrrlin tasks; weak output goes back through multi-model consensus review, and a task closes only with proof (a live URL, a green build or a human sign-off).
+- The harness: an always-on Hermes Agent plus a TypeScript service (Node.js, Hono, SQLite) with leases for parallel agents and idempotency keys, steered from Telegram, one channel per workflow. It runs SEO end to end, directs and produces TikTok videos in Google Flow, handles the helpdesk (refunds and support), posts to social networks, reacts to alerts and ships quick product changes straight from Telegram.
+- Review gates: independent reviewer models score outgoing messages against hard rules before they go out.
+
+## Earlier
+
+### Frontend Engineer · ITCG (agency), then Lazard Export (IoT dashboards) (06/2015 - 09/2016)
+
+Landing pages and a full-stack marketplace (Django + JS); a React/Redux dashboard for an IoT door-access system. Part-time course author at [ITVDN](https://itvdn.com/video/react_adv) (2017): advanced React and Redux patterns.
+
+## Skills
+
+- Languages: TypeScript, JavaScript, Python, SQL
+- Frontend: React, Next.js, Redux, RxJS, Angular, WebSockets / SignalR, Tailwind
+- Backend & cloud: Node.js (Hono, Zod), PostgreSQL (Supabase, RLS), GraphQL, AWS serverless (Lambda, SQS, DynamoDB, Cognito), GCP / Firebase, SQLite, Stripe, Playwright, GitHub Actions
+- AI: OpenAI API, Whisper, fine-tuning, RAG, MCP, LLM review gates, agent orchestration (Claude Code, Codex CLI, Hermes Agent)
+
+## Education & Certifications
+
+- Computer Engineering, Bachelor's degree, Donbas State Technical University (2012 - 2016) · [AWS Certified Developer - Associate](https://www.credly.com/badges/4986f3f5-3985-4467-9124-e18d26c59404/public_url) · [AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/696fcac0-fe76-451c-a155-dba8dfdb6938/public_url)
