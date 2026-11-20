@@ -62,7 +62,7 @@
       },
       {
         "name": "Backend, cloud & AI",
-        "items": "Node.js (Hono), AWS serverless, GCP / Firebase, Stripe, OpenAI API, Whisper, fine-tuning, RAG, MCP, coding agents behind review gates"
+        "items": "Node.js (Hono), AWS serverless, GCP / Firebase, Stripe, OpenAI API, Whisper, fine-tuning, RAG, MCP, agent harnesses, coding agents behind review gates"
       }
     ]
   },

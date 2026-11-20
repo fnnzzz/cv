@@ -80,7 +80,7 @@ Landing pages and a full-stack marketplace (Django + JS); a React/Redux dashboar
 - Languages: TypeScript, JavaScript, Python, SQL
 - Frontend: React, Next.js, Redux, RxJS, Angular, WebSockets / SignalR, Tailwind
 - Backend & cloud: Node.js (Hono, Zod), PostgreSQL (Supabase, RLS), GraphQL, AWS serverless (Lambda, SQS, DynamoDB, Cognito), GCP / Firebase, SQLite, Stripe, Playwright, GitHub Actions
-- AI: OpenAI API, Whisper, fine-tuning, RAG, MCP, LLM review gates, agent orchestration (Claude Code, Codex CLI, Hermes Agent)
+- AI: OpenAI API, Whisper, fine-tuning, RAG, MCP, agent harnesses (Hermes Agent: leases, idempotency, Telegram control), LLM review gates, coding agents (Claude Code, Codex CLI)
 
 ## Education & Certifications
 
