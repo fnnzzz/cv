@@ -79,7 +79,7 @@
             "Kept the UI responsive under high-frequency streams with RxJS-based state management.",
             "Moved trading calculations to arbitrary-precision arithmetic and built type-safe order forms with real-time validation.",
             "Ships client-area flows with the backend, QA and compliance teams (withdrawals, fiat bank-account whitelisting, DAC8 reporting data) in 17 languages.",
-            "Since mid-2026, delivers through an agent workflow of his own around the team's Azure DevOps flow: agents turn user stories into implementation-ready specs, coding agents implement in isolated git worktrees, a multi-model consensus gate reviews the design and each of his PRs, and browser and Figma QA agents verify the result."
+            "Since mid-2026, delivers through an agent workflow of his own around the team's Azure DevOps flow: agents turn user stories into implementation-ready specs, coding agents implement each task, a multi-model consensus gate reviews the design and each of his PRs, and browser and Figma QA agents verify the result."
           ],
           "stack": "React, Redux, TypeScript, SignalR, RxJS; Claude Code, Codex, MCP"
         },
@@ -113,7 +113,7 @@
         {
           "name": "<img class='company-logo company-logo--mark' src='assets/images/mrrlin-logo.png' alt='' /><a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
           "start": "06/2026",
-          "descr": "Co-founded, in beta. Grew out of running ELI, where coding agents needed control, verification and memory; most coding work on both products now runs through it. A Director turns one goal into a task plan for Claude Code, Codex CLI and other models. Next.js 15 operator dashboard (real-time task board, run inspector) over a Hono API and Supabase PostgreSQL; its public MCP package on npm (about 27,000 downloads in 30 days, Nov 2026) runs each task in its own git worktree. Separately, built alone the always-on agent harness (Hermes Agent, Node.js/TypeScript) that runs both products' operations in production, steered from Telegram: SEO, video content, helpdesk and refunds, social posting, alerts, with LLM review gates before anything goes out."
+          "descr": "Co-founded, in beta. Grew out of running ELI, where coding agents needed control, verification and memory; most coding work on both products now runs through it. A Director turns one goal into a task plan for Claude Code, Codex CLI and other models. Next.js 15 operator dashboard (real-time task board, run inspector) over a Hono API and Supabase PostgreSQL; its public MCP package on npm (<a href='https://www.npmjs.com/package/@mrrlin-dev/mcp' target='_blank' rel='noopener noreferrer'>~30k downloads a month</a>) hands tasks to local Claude Code or Codex agents, and a task closes only on proof, after consensus review. Separately, built alone the always-on agent harness (Hermes Agent, Node.js/TypeScript) that runs both products' operations in production, steered from Telegram: SEO, video content, helpdesk and refunds, social posting, alerts, with LLM review gates before anything goes out."
         }
       ]
     },
