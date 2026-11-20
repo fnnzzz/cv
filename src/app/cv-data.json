@@ -106,7 +106,7 @@
       "title": "Independent Projects",
       "entries": [
         {
-          "name": "<a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI English tutor · built the whole technical side",
+          "name": "<img class='company-logo company-logo--mark' src='assets/images/eli-logo.svg' alt='' /><a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI English tutor · built the whole technical side",
           "start": "11/2024",
           "descr": "Co-founded with partners who run the business side. Pronunciation and goal-based speaking practice (job interviews, work meetings, relocation). Live, as of 11/2026: <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a>, ~780 registered users.",
           "bullets": [
@@ -116,7 +116,7 @@
           ]
         },
         {
-          "name": "<a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
+          "name": "<img class='company-logo company-logo--mark' src='assets/images/mrrlin-logo.png' alt='' /><a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
           "start": "06/2026",
           "descr": "Co-founded, in beta; its founders use it to build ELI and Mrrlin. A Director turns one goal into a task plan and routes tasks to Claude Code, Codex CLI and other models. Separately, built alone the agent harness that runs the day-to-day operations of both products in production.",
           "bullets": [

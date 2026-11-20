@@ -282,6 +282,13 @@ ul {
     border-radius: 50%;
 }
 
+// product marks (ELI, Mrrlin) are not round photos: keep their own shape
+.company-logo--mark {
+    border-radius: 0;
+    height: 20px;
+    width: 20px;
+}
+
 .badges {
     display: flex;
     gap: 16px;
@@ -412,7 +419,8 @@ ul {
         }
     }
 
-    .company-logo {
+    .company-logo,
+    .company-logo--mark {
         height: 12px;
         width: 12px;
         vertical-align: -1px;
