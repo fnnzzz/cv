@@ -405,10 +405,14 @@ ul {
         border: 1px solid #cbd5e1;
         border-radius: 999px;
         font-weight: 500;
+        transition: background-color .15s, border-color .15s;
 
-        &:hover {
+        // the global `a:hover { border-bottom: none }` above would drop the pill's bottom edge: restate the whole border
+        &:hover,
+        &:focus-visible {
             text-decoration: none;
-            border-color: #0369a1;
+            border: 1px solid #0369a1;
+            background: #f0f9ff;
         }
     }
 
