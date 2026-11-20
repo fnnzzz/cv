@@ -8,6 +8,7 @@
   },
   "header": {
     "pic": "assets/images/avatar.png",
+    "video": "assets/video/intro.mp4",
     "fullname": "Vlad Feninets",
     "title": "Senior Frontend Engineer · React, TypeScript, real-time trading UIs",
     "location": "Vienna, Austria (CET) · open to EU remote",
@@ -40,7 +41,7 @@
   "summary": {
     "title": "Summary",
     "paragraphs": [
-      "Frontend engineer with {{OVERALL_EXPERIENCE_YEARS}} years building complex, data-heavy web applications (React, Angular, TypeScript). Since 2022, building the real-time trading frontend of <a href='https://xbo.com' target='_blank' rel='noopener noreferrer'>XBO.com</a>, a crypto exchange: live order books and charts over WebSockets, high-frequency state, exact decimal trading math, 17 languages. Before that, frontend tech lead at robota.ua, one of Ukraine's two largest job boards: architecture migration, CI speed, Core Web Vitals.",
+      "Frontend engineer with {{OVERALL_EXPERIENCE_YEARS}} years building complex, data-heavy web applications (React, Angular, TypeScript). Since 2022, building the real-time trading frontend of <a href='https://xbo.com' target='_blank' rel='noopener noreferrer'>XBO.com</a>, a crypto exchange: heavy WebSocket traffic where performance matters, exact decimal trading math, 17 languages. Before that, frontend tech lead at robota.ua, the largest job board in Ukraine: architecture migration, CI speed, Core Web Vitals.",
       "Comfortable beyond the frontend: Node.js, GraphQL and serverless AWS (certified). As independent projects, built the whole technical side of <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI English tutor with <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a>, and designed and built <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace for coding agents."
     ]
   },
@@ -61,7 +62,7 @@
       },
       {
         "name": "Backend, cloud & AI",
-        "items": "Node.js (Hono), AWS serverless, GCP / Firebase, Stripe, OpenAI API, Whisper, RAG, MCP, coding agents behind review gates"
+        "items": "Node.js (Hono), AWS serverless, GCP / Firebase, Stripe, OpenAI API, Whisper, fine-tuning, RAG, MCP, coding agents behind review gates"
       }
     ]
   },
@@ -92,7 +93,7 @@
           "name": "Frontend Engineer → Frontend Tech Lead · <img class='company-logo' src='assets/images/robota-logo.png' alt='' /><a href='https://robota.ua' target='_blank' rel='noopener noreferrer'>robota.ua</a>",
           "start": "11/2016",
           "end": "12/2021",
-          "descr": "One of Ukraine's two largest job boards (6.5M+ resumes). Grew from mid-level engineer to tech lead of the frontend platform.",
+          "descr": "The largest job board in Ukraine (6.5M+ resumes). Grew from mid-level engineer to tech lead of the frontend platform.",
           "bullets": [
             "Moved the 20-year-old product's .NET/jQuery monolith to Angular + GraphQL services; built the mobile SPA from scratch.",
             "Cut CI builds from about 40 to about 20 minutes (TeamCity to GitHub Actions, incremental builds, caching).",
@@ -107,12 +108,12 @@
         {
           "name": "<a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI English tutor · built the whole technical side",
           "start": "11/2024",
-          "descr": "Co-founded with partners who run the business side. Frontend, serverless AWS backend, Whisper and LLM voice pipeline with phoneme-level pronunciation scoring, Stripe subscriptions. Live, as of 11/2026: <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a>, ~780 registered users."
+          "descr": "Co-founded with partners who run the business side. Frontend, serverless AWS backend, Stripe subscriptions, and the voice pipeline: Whisper, phoneme-level pronunciation scoring, LLM dialogue on fine-tuned GPT models driven by a learner profile. Live, as of 11/2026: <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a>, ~780 registered users."
         },
         {
           "name": "<a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
           "start": "10/2026",
-          "descr": "Co-founded, in beta: turns one goal into tasks for Claude Code, Codex CLI and other models and closes each only with proof. Separately, built alone the agent harness that runs both products' operations in production."
+          "descr": "Co-founded, in beta; its founders use it to build ELI and Mrrlin. Turns one goal into tasks for Claude Code, Codex CLI and other models and closes each only with proof. Separately, built alone the always-on agent harness (Hermes Agent, Node.js/TypeScript) that runs both products' operations in production, with LLM review gates before anything goes out."
         }
       ]
     },

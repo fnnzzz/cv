@@ -1,5 +1,15 @@
 <header class="top-bio__wrap">
-    <img class="top-bio__photo" src={{data.pic}} alt={{data.fullname}} />
+    <div class="top-bio__avatar">
+        <img *ngIf="!(data.video && playing)" class="top-bio__photo" src={{data.pic}} alt={{data.fullname}} />
+        <video *ngIf="data.video && playing" class="top-bio__photo top-bio__photo--clip" [src]="data.video" [poster]="data.pic"
+            autoplay playsinline (ended)="playing = false" (click)="playing = false" title="Click to stop"></video>
+        <button *ngIf="data.video && !playing" type="button" class="top-bio__play no-print" (click)="playing = true"
+            aria-label="Play a short intro video">
+            <span class="top-bio__play-badge" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l11-6.5a1 1 0 0 0 0-1.72l-11-6.5A1 1 0 0 0 8 5.5z" /></svg>
+            </span>
+        </button>
+    </div>
 
     <div class="top-bio__rightside">
         <h1 class="top-bio__fullname">{{data.fullname}}</h1>

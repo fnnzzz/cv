@@ -7,6 +7,8 @@ export interface CvLink {
 
 export interface CvHeader {
   pic: string;
+  /** short intro clip that plays in the photo's circle on click */
+  video?: string;
   fullname: string;
   title: string;
   location: string;
