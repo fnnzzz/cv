@@ -54,11 +54,11 @@
       },
       {
         "name": "Frontend",
-        "items": "React, Redux, RxJS, Angular, WebSockets / SignalR, Tailwind"
+        "items": "React, Next.js, Redux, RxJS, Angular, WebSockets / SignalR, Tailwind"
       },
       {
         "name": "Backend & cloud",
-        "items": "Node.js (Hono), GraphQL, AWS serverless (Lambda, SQS, DynamoDB, Cognito), GCP / Firebase, SQLite, Stripe, GitHub Actions"
+        "items": "Node.js (Hono, Zod), PostgreSQL (Supabase, RLS), GraphQL, AWS serverless (Lambda, SQS, DynamoDB, Cognito), GCP / Firebase, SQLite, Stripe, Playwright, GitHub Actions"
       },
       {
         "name": "AI",
@@ -120,7 +120,8 @@
           "start": "10/2026",
           "descr": "Co-founded, in beta; its founders use it to build ELI and Mrrlin. A Director turns one goal into a task plan and routes tasks to Claude Code, Codex CLI and other models. Separately, built alone the agent harness that runs the day-to-day operations of both products in production.",
           "bullets": [
-            "Mrrlin: weak output goes back through multi-model consensus review; each task runs in its own git worktree and closes only with proof (a live URL, a green build or a human sign-off).",
+            "Mrrlin: a TypeScript monorepo with a Next.js 15 operator dashboard, a Hono REST API with shared Zod schemas and generated OpenAPI, Supabase PostgreSQL with Row Level Security, and Stripe subscriptions; tested with pgTAP, Playwright end-to-end tests and a fast CI gate.",
+          "Its public npm package @mrrlin-dev/mcp, an MCP server plus a background bridge, lets a local Claude Code or Codex agent take Mrrlin tasks and run each one in its own git worktree, leaving the operator's working copy untouched; weak output goes back through multi-model consensus review, and a task closes only with proof (a live URL, a green build or a human sign-off).",
             "The harness: an always-on Hermes Agent plus a TypeScript service (Node.js, Hono, SQLite) with leases for parallel agents and idempotency keys, steered from Telegram, one channel per workflow.",
           "Review gates: independent reviewer models score outgoing messages against hard rules before they go out."
           ]

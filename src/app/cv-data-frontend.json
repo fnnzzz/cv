@@ -113,7 +113,7 @@
         {
           "name": "<a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
           "start": "10/2026",
-          "descr": "Co-founded, in beta; its founders use it to build ELI and Mrrlin. Turns one goal into tasks for Claude Code, Codex CLI and other models and closes each only with proof. Separately, built alone the always-on agent harness (Hermes Agent, Node.js/TypeScript) that runs both products' operations in production, with LLM review gates before anything goes out."
+          "descr": "Co-founded, in beta: a workspace where a Director turns one goal into a task plan for Claude Code, Codex CLI and other models. Next.js 15 operator dashboard (real-time task board, run inspector) over a Hono API and Supabase PostgreSQL; its public MCP package on npm runs each task in its own git worktree. Separately, built alone the always-on agent harness (Hermes Agent, Node.js/TypeScript) that runs both products' operations in production, with LLM review gates before anything goes out."
         }
       ]
     },
