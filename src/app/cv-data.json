@@ -10,7 +10,7 @@
     "pic": "assets/images/avatar.png",
     "video": "assets/video/intro.mp4",
     "fullname": "Vlad Feninets",
-    "title": "Senior Product Engineer · TypeScript, React, Node.js, AWS",
+    "title": "Senior Product Engineer · TypeScript, Node.js, AI agents in production",
     "location": "Vienna, Austria (CET) · open to EU remote",
     "links": [
       {
@@ -79,7 +79,7 @@
             "Kept the UI responsive under high-frequency streams with RxJS-based state management.",
             "Moved trading calculations to arbitrary-precision arithmetic and built type-safe order forms with real-time validation.",
             "Ships client-area flows with the backend, QA and compliance teams (withdrawals, fiat bank-account whitelisting, DAC8 reporting data) in 17 languages.",
-            "Since mid-2026, delivers through an agent workflow of his own around the team's Azure DevOps flow: agents turn user stories into implementation-ready specs, coding agents implement in isolated git worktrees, a multi-model consensus gate reviews the design and each of his PRs, and browser and Figma QA agents verify the result."
+            "Since mid-2026, delivers through an agent workflow of his own around the team's Azure DevOps flow: agents turn user stories into implementation-ready specs, coding agents implement each task, a multi-model consensus gate reviews the design and each of his PRs, and browser and Figma QA agents verify the result."
           ],
           "stack": "React, Redux, TypeScript, SignalR, RxJS; Claude Code, Codex, MCP"
         },
@@ -122,7 +122,7 @@
           "bullets": [
             "Mrrlin: a TypeScript monorepo with a Next.js 15 operator dashboard, a Hono REST API with shared Zod schemas and generated OpenAPI, Supabase PostgreSQL with Row Level Security, and Stripe subscriptions; tested with pgTAP, Playwright end-to-end tests and a fast CI gate.",
           "Task state lives in a strictly typed PostgreSQL state machine with atomic transition checks and sticky agent assignment, replacing flat Markdown task files.",
-          "Its public npm package @mrrlin-dev/mcp (about 27,000 downloads in 30 days, Nov 2026), an MCP server plus a background bridge that runs on Linux, macOS and Windows, lets a local Claude Code or Codex agent take Mrrlin tasks and run each one in its own git worktree, leaving the operator's working copy untouched; weak output goes back through multi-model consensus review, and a task closes only with proof (a live URL, a green build or a human sign-off).",
+          "Its public npm package @mrrlin-dev/mcp (<a href='https://www.npmjs.com/package/@mrrlin-dev/mcp' target='_blank' rel='noopener noreferrer'>~30k downloads a month</a>), an MCP server plus a background bridge that runs on Linux, macOS and Windows, lets a local Claude Code or Codex agent take Mrrlin tasks; weak output goes back through multi-model consensus review, and a task closes only with proof (a live URL, a green build or a human sign-off).",
             "The harness: an always-on Hermes Agent plus a TypeScript service (Node.js, Hono, SQLite) with leases for parallel agents and idempotency keys, steered from Telegram, one channel per workflow. It runs SEO end to end, directs and produces TikTok videos in Google Flow, handles the helpdesk (refunds and support), posts to social networks, reacts to alerts and ships quick product changes straight from Telegram.",
           "Review gates: independent reviewer models score outgoing messages against hard rules before they go out."
           ]
