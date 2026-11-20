@@ -42,7 +42,7 @@
     "title": "Summary",
     "paragraphs": [
       "Senior product engineer with {{OVERALL_EXPERIENCE_YEARS}} years in JavaScript and TypeScript, frontend-heavy full stack, building products and the AI agents that run them in production. Since 2022, building the real-time trading frontend of <a href='https://xbo.com' target='_blank' rel='noopener noreferrer'>XBO.com</a>, an award-winning crypto exchange: heavy WebSocket traffic, exact decimal money math, 17 languages. Since mid-2026, delivering there through an agent workflow built around the team's Azure DevOps flow, with coding agents on each task and multi-model review of every PR. Before XBO, frontend tech lead at robota.ua, the largest job board in Ukraine.",
-      "Co-founded and built two AI products: <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an English tutor with <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a> (Whisper, phoneme-level pronunciation scoring, LLM dialogue, serverless AWS, Stripe), and <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace that turns a goal into tasks for Claude Code or Codex (beta, public MCP package with <a href='https://www.npmjs.com/package/@mrrlin-dev/mcp' target='_blank' rel='noopener noreferrer'>about 30k npm downloads a month</a>). Built alone the agent harness that runs both products' operations in production, from helpdesk and refunds to SEO and social posting, behind LLM review gates."
+      "Co-founded and built two AI products: <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an English tutor with <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a> (Whisper, phoneme-level pronunciation scoring, LLM dialogue, serverless AWS, Stripe), and <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace that turns a goal into tasks for Claude Code or Codex (beta, public MCP package with <a href='https://www.npmjs.com/package/@mrrlin-dev/mcp' target='_blank' rel='noopener noreferrer'>about 30k npm downloads a month</a>). Built alone the agent harness that runs the day-to-day operations of both products in production from a Telegram chat."
     ]
   },
   "skills": {
@@ -111,21 +111,30 @@
           "descr": "Co-founded and live with paying users: <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a> and ~780 registered users as of 11/2026. Pronunciation and goal-based speaking practice for job interviews, work meetings and relocation.",
           "bullets": [
             "Built the voice pipeline: Whisper speech recognition on serverless GPU and phoneme-level pronunciation scoring.",
-          "Fine-tuned GPT models for the tutor's dialogue (LangChain), driven by a learner profile updated after every conversation.",
+            "Fine-tuned GPT models for the tutor's dialogue (LangChain), driven by a learner profile updated after every conversation.",
             "Built the serverless, event-driven AWS backend (Lambda, API Gateway, SQS, DynamoDB, CloudFront, Cognito) plus GCP/Firebase, and Stripe subscriptions tiered by speaking minutes."
           ]
         },
         {
           "name": "<img class='company-logo company-logo--mark' src='assets/images/mrrlin-logo.png' alt='' /><a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
           "start": "06/2026",
-          "descr": "Co-founded, in beta. Grew out of running ELI, where coding agents needed control, verification and memory; most coding work on both products now runs through it. A Director turns one goal into a task plan and routes tasks to Claude Code, Codex CLI and other models. Separately, built alone the agent harness that runs the day-to-day operations of both products in production.",
+          "descr": "Co-founded, in beta. Grew out of running ELI, where coding agents needed control, verification and memory; most coding work on both products now runs through it. A Director turns one goal into a task plan and routes tasks to Claude Code, Codex CLI and other models.",
           "bullets": [
             "Mrrlin: a TypeScript monorepo with a Next.js 15 operator dashboard, a Hono REST API with shared Zod schemas and generated OpenAPI, Supabase PostgreSQL with Row Level Security, and Stripe subscriptions; tested with pgTAP, Playwright end-to-end tests and a fast CI gate.",
-          "Task state lives in a strictly typed PostgreSQL state machine with atomic transition checks and sticky agent assignment, replacing flat Markdown task files.",
-          "Its public npm package @mrrlin-dev/mcp (<a href='https://www.npmjs.com/package/@mrrlin-dev/mcp' target='_blank' rel='noopener noreferrer'>~30k downloads a month</a>), an MCP server plus a background bridge that runs on Linux, macOS and Windows, lets a local Claude Code or Codex agent take Mrrlin tasks; weak output goes back through multi-model consensus review, and a task closes only with proof (a live URL, a green build or a human sign-off).",
-            "The harness: an always-on Hermes Agent plus a TypeScript service (Node.js, Hono, SQLite) with leases for parallel agents and idempotency keys, steered from Telegram, one channel per workflow. It runs SEO end to end, directs and produces TikTok videos in Google Flow, handles the helpdesk (refunds and support), posts to social networks, reacts to alerts and ships quick product changes straight from Telegram.",
-          "Review gates: independent reviewer models score outgoing messages against hard rules before they go out."
+            "Task state lives in a strictly typed PostgreSQL state machine with atomic transition checks and sticky agent assignment, replacing flat Markdown task files.",
+            "Its public npm package @mrrlin-dev/mcp (<a href='https://www.npmjs.com/package/@mrrlin-dev/mcp' target='_blank' rel='noopener noreferrer'>~30k downloads a month</a>), an MCP server plus a background bridge that runs on Linux, macOS and Windows, lets a local Claude Code or Codex agent take Mrrlin tasks; weak output goes back through multi-model consensus review, and a task closes only with proof (a live URL, a green build or a human sign-off)."
           ]
+        },
+        {
+          "name": "Agent operations harness · built alone",
+          "start": "2026",
+          "descr": "An always-on agent system that runs the day-to-day operations of ELI and Mrrlin in production, steered from Telegram by text or voice messages, one channel per workflow.",
+          "bullets": [
+            "Handles helpdesk for both products (support and refunds), answers leads (outreach and reply triage), writes SEO content, posts to X and other networks, produces TikTok videos in Google Flow, reacts to alerts and ships quick product changes.",
+            "Built on Hermes Agent with a TypeScript service that gives parallel agents leases on jobs, plus idempotency keys so a retried action does not run twice.",
+            "Review gates: reviewer models from other providers score outgoing messages against hard rules before they are sent."
+          ],
+          "stack": "Hermes Agent, TypeScript, Node.js, Hono, SQLite, Telegram"
         }
       ]
     },
