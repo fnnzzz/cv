@@ -2,7 +2,7 @@
 
 Senior Product Engineer · TypeScript, Node.js, AI agents in production
 
-Vienna, Austria (CET) · open to EU remote
+Vienna, Austria (CET)
 
 - LinkedIn: https://www.linkedin.com/in/fnnzzz/
 - GitHub: https://github.com/fnnzzz/
@@ -45,7 +45,7 @@ The largest job board in Ukraine (6.5M+ resumes). Grew from mid-level engineer t
 
 ### [ELI](https://elispeak.com), AI English tutor · built the whole technical side (11/2024 - now)
 
-Co-founded with partners who run the business side. Pronunciation and goal-based speaking practice (job interviews, work meetings, relocation). Live, as of 11/2026: [52 active paid subscriptions](https://trustmrr.com/startup/elispeak), ~780 registered users.
+Co-founded and live with paying users: [52 active paid subscriptions](https://trustmrr.com/startup/elispeak) and ~780 registered users as of 11/2026. Pronunciation and goal-based speaking practice for job interviews, work meetings and relocation.
 
 - Built the voice pipeline: Whisper speech recognition on serverless GPU and phoneme-level pronunciation scoring.
 - Fine-tuned GPT models for the tutor's dialogue (LangChain), driven by a learner profile updated after every conversation.
