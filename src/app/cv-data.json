@@ -117,7 +117,7 @@
         },
         {
           "name": "<a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
-          "start": "10/2026",
+          "start": "06/2026",
           "descr": "Co-founded, in beta; its founders use it to build ELI and Mrrlin. A Director turns one goal into a task plan and routes tasks to Claude Code, Codex CLI and other models. Separately, built alone the agent harness that runs the day-to-day operations of both products in production.",
           "bullets": [
             "Mrrlin: a TypeScript monorepo with a Next.js 15 operator dashboard, a Hono REST API with shared Zod schemas and generated OpenAPI, Supabase PostgreSQL with Row Level Security, and Stripe subscriptions; tested with pgTAP, Playwright end-to-end tests and a fast CI gate.",
