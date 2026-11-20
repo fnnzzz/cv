@@ -41,8 +41,8 @@
   "summary": {
     "title": "Summary",
     "paragraphs": [
-      "Senior engineer with {{OVERALL_EXPERIENCE_YEARS}} years in JavaScript and TypeScript, frontend-heavy full stack. Since 2022, building the real-time trading frontend of <a href='https://xbo.com' target='_blank' rel='noopener noreferrer'>XBO.com</a>, a crypto exchange: live order books and positions over WebSockets, exact decimal money math, 17 languages. Before that, frontend tech lead at robota.ua, one of Ukraine's two largest job boards.",
-      "As independent projects, built the whole technical side of <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI English tutor with <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a> (Whisper and LLM voice pipeline, serverless AWS, Stripe billing), and designed and built <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace for coding agents."
+      "Senior engineer with {{OVERALL_EXPERIENCE_YEARS}} years in JavaScript and TypeScript, frontend-heavy full stack. Since 2022, building the real-time trading frontend of <a href='https://xbo.com' target='_blank' rel='noopener noreferrer'>XBO.com</a>, a crypto exchange: heavy WebSocket traffic where performance matters, exact decimal money math, 17 languages. Before that, frontend tech lead at robota.ua, the largest job board in Ukraine.",
+      "As independent projects, built the whole technical side of <a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, an AI English tutor with <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a> (Whisper and LLM voice pipeline, serverless AWS, Stripe billing), designed and built <a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, a workspace for coding agents, and built alone the agent harness that runs both products' operations."
     ]
   },
   "skills": {
@@ -62,7 +62,7 @@
       },
       {
         "name": "AI",
-        "items": "OpenAI API, Whisper, fine-tuning, RAG, MCP, LLM review gates for outgoing messages (rubrics, hard rules), agent orchestration (Claude Code, Codex CLI, Hermes Agent)"
+        "items": "OpenAI API, Whisper, fine-tuning, RAG, MCP, LLM review gates, agent orchestration (Claude Code, Codex CLI, Hermes Agent)"
       }
     ]
   },
@@ -93,7 +93,7 @@
           "name": "Frontend Engineer → Frontend Tech Lead · <img class='company-logo' src='assets/images/robota-logo.png' alt='' /><a href='https://robota.ua' target='_blank' rel='noopener noreferrer'>robota.ua</a>",
           "start": "11/2016",
           "end": "12/2021",
-          "descr": "One of Ukraine's two largest job boards (6.5M+ resumes). Grew from mid-level engineer to tech lead of the frontend platform.",
+          "descr": "The largest job board in Ukraine (6.5M+ resumes). Grew from mid-level engineer to tech lead of the frontend platform.",
           "bullets": [
             "Moved the 20-year-old product's .NET/jQuery monolith to Angular + GraphQL services; built the mobile SPA from scratch.",
             "Cut CI builds from about 40 to about 20 minutes (TeamCity to GitHub Actions, incremental builds, caching).",
@@ -110,17 +110,19 @@
           "start": "11/2024",
           "descr": "Co-founded with partners who run the business side. Pronunciation and goal-based speaking practice (job interviews, work meetings, relocation). Live, as of 11/2026: <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a>, ~780 registered users.",
           "bullets": [
-            "Built the voice pipeline: Whisper speech recognition on serverless GPU, phoneme-level pronunciation scoring, and LLM dialogue (LangChain, fine-tuned GPT models) driven by a learner profile updated after every conversation.",
+            "Built the voice pipeline: Whisper speech recognition on serverless GPU and phoneme-level pronunciation scoring.",
+          "Fine-tuned GPT models for the tutor's dialogue (LangChain), driven by a learner profile updated after every conversation.",
             "Built the serverless, event-driven AWS backend (Lambda, API Gateway, SQS, DynamoDB, CloudFront, Cognito) plus GCP/Firebase, and Stripe subscriptions tiered by speaking minutes."
           ]
         },
         {
           "name": "<a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
           "start": "10/2026",
-          "descr": "Co-founded, in beta: turns one goal into tasks for Claude Code, Codex CLI and other models. Separately, built alone the agent harness (Hermes Agent plus a TypeScript service) that runs both products' operations in production.",
+          "descr": "Co-founded, in beta; its founders use it to build ELI and Mrrlin. A Director turns one goal into a task plan and routes tasks to Claude Code, Codex CLI and other models. Separately, built alone the agent harness that runs the day-to-day operations of both products in production.",
           "bullets": [
-            "Mrrlin: each task runs in its own git worktree and closes only with proof (a live URL, a green build or a human sign-off).",
-            "The harness: an agent-facing API in Node.js/TypeScript (Hono, SQLite) with leases and idempotency keys, and LLM review gates that score every outgoing message against hard rules."
+            "Mrrlin: weak output goes back through multi-model consensus review; each task runs in its own git worktree and closes only with proof (a live URL, a green build or a human sign-off).",
+            "The harness: an always-on Hermes Agent plus a TypeScript service (Node.js, Hono, SQLite) with leases for parallel agents and idempotency keys, steered from Telegram, one channel per workflow.",
+          "Review gates: independent reviewer models score outgoing messages against hard rules before they go out."
           ]
         }
       ]
