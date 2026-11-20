@@ -61,7 +61,7 @@
       },
       {
         "name": "AI",
-        "items": "OpenAI API, Whisper, fine-tuning, LLM review gates for outgoing messages (rubrics, hard rules), agent orchestration (Claude Code, Codex CLI, Hermes Agent)"
+        "items": "OpenAI API, Whisper, fine-tuning, RAG, MCP, LLM review gates for outgoing messages (rubrics, hard rules), agent orchestration (Claude Code, Codex CLI, Hermes Agent)"
       }
     ]
   },
@@ -106,7 +106,7 @@
       "entries": [
         {
           "name": "<a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI English tutor · built the whole technical side",
-          "start": "2025",
+          "start": "11/2024",
           "descr": "Co-founded with partners who run the business side. Pronunciation and goal-based speaking practice (job interviews, work meetings, relocation). Live, as of 11/2026: <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a>, ~780 registered users.",
           "bullets": [
             "Built the voice pipeline: Whisper speech recognition on serverless GPU, phoneme-level pronunciation scoring, and LLM dialogue (LangChain, fine-tuned GPT models) driven by a learner profile updated after every conversation.",
@@ -115,7 +115,7 @@
         },
         {
           "name": "<a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
-          "start": "2026",
+          "start": "10/2026",
           "descr": "Co-founded, in beta: turns one goal into tasks for Claude Code, Codex CLI and other models. Separately, built alone the agent harness (Hermes Agent plus a TypeScript service) that runs both products' operations in production.",
           "bullets": [
             "Mrrlin: each task runs in its own git worktree and closes only with proof (a live URL, a green build or a human sign-off).",

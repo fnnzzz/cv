@@ -61,7 +61,7 @@
       },
       {
         "name": "Backend, cloud & AI",
-        "items": "Node.js (Hono), AWS serverless, GCP / Firebase, Stripe, OpenAI API, Whisper, coding agents behind review gates"
+        "items": "Node.js (Hono), AWS serverless, GCP / Firebase, Stripe, OpenAI API, Whisper, RAG, MCP, coding agents behind review gates"
       }
     ]
   },
@@ -106,12 +106,12 @@
       "entries": [
         {
           "name": "<a href='https://elispeak.com' target='_blank' rel='noopener noreferrer'>ELI</a>, AI English tutor · built the whole technical side",
-          "start": "2025",
+          "start": "11/2024",
           "descr": "Co-founded with partners who run the business side. Frontend, serverless AWS backend, Whisper and LLM voice pipeline with phoneme-level pronunciation scoring, Stripe subscriptions. Live, as of 11/2026: <a href='https://trustmrr.com/startup/elispeak' target='_blank' rel='noopener noreferrer'>52 active paid subscriptions</a>, ~780 registered users."
         },
         {
           "name": "<a href='https://mrrlin.com' target='_blank' rel='noopener noreferrer'>Mrrlin</a>, workspace for coding agents · designed and built",
-          "start": "2026",
+          "start": "10/2026",
           "descr": "Co-founded, in beta: turns one goal into tasks for Claude Code, Codex CLI and other models and closes each only with proof. Separately, built alone the agent harness that runs both products' operations in production."
         }
       ]
