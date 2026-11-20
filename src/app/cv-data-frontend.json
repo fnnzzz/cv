@@ -8,6 +8,7 @@
   },
   "header": {
     "pic": "assets/images/avatar.png",
+    "video": "assets/video/intro.mp4",
     "fullname": "Vlad Feninets",
     "title": "Senior Frontend Engineer · React, TypeScript, real-time trading UIs",
     "location": "Vienna, Austria (CET) · open to EU remote",
