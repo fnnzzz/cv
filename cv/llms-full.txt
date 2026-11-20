@@ -13,7 +13,7 @@ Vienna, Austria (CET)
 
 Senior product engineer with 11 years in JavaScript and TypeScript, frontend-heavy full stack, building products and the AI agents that run them in production. Since 2022, building the real-time trading frontend of [XBO.com](https://xbo.com), an award-winning crypto exchange: heavy WebSocket traffic, exact decimal money math, 17 languages. Since mid-2026, delivering there through an agent workflow built around the team's Azure DevOps flow, with coding agents on each task and multi-model review of every PR. Before XBO, frontend tech lead at robota.ua, the largest job board in Ukraine.
 
-Co-founded and built two AI products: [ELI](https://elispeak.com), an English tutor with [52 active paid subscriptions](https://trustmrr.com/startup/elispeak) (Whisper, phoneme-level pronunciation scoring, LLM dialogue, serverless AWS, Stripe), and [Mrrlin](https://mrrlin.com), a workspace that turns a goal into tasks for Claude Code or Codex (beta, public MCP package with [about 30k npm downloads a month](https://www.npmjs.com/package/@mrrlin-dev/mcp)). Built alone the agent harness that runs both products' operations in production, from helpdesk and refunds to SEO and social posting, behind LLM review gates.
+Co-founded and built two AI products: [ELI](https://elispeak.com), an English tutor with [52 active paid subscriptions](https://trustmrr.com/startup/elispeak) (Whisper, phoneme-level pronunciation scoring, LLM dialogue, serverless AWS, Stripe), and [Mrrlin](https://mrrlin.com), a workspace that turns a goal into tasks for Claude Code or Codex (beta, public MCP package with [about 30k npm downloads a month](https://www.npmjs.com/package/@mrrlin-dev/mcp)). Built alone the agent harness that runs the day-to-day operations of both products in production from a Telegram chat.
 
 ## Experience
 
@@ -53,13 +53,21 @@ Co-founded and live with paying users: [52 active paid subscriptions](https://tr
 
 ### [Mrrlin](https://mrrlin.com), workspace for coding agents · designed and built (06/2026 - now)
 
-Co-founded, in beta. Grew out of running ELI, where coding agents needed control, verification and memory; most coding work on both products now runs through it. A Director turns one goal into a task plan and routes tasks to Claude Code, Codex CLI and other models. Separately, built alone the agent harness that runs the day-to-day operations of both products in production.
+Co-founded, in beta. Grew out of running ELI, where coding agents needed control, verification and memory; most coding work on both products now runs through it. A Director turns one goal into a task plan and routes tasks to Claude Code, Codex CLI and other models.
 
 - Mrrlin: a TypeScript monorepo with a Next.js 15 operator dashboard, a Hono REST API with shared Zod schemas and generated OpenAPI, Supabase PostgreSQL with Row Level Security, and Stripe subscriptions; tested with pgTAP, Playwright end-to-end tests and a fast CI gate.
 - Task state lives in a strictly typed PostgreSQL state machine with atomic transition checks and sticky agent assignment, replacing flat Markdown task files.
 - Its public npm package @mrrlin-dev/mcp ([~30k downloads a month](https://www.npmjs.com/package/@mrrlin-dev/mcp)), an MCP server plus a background bridge that runs on Linux, macOS and Windows, lets a local Claude Code or Codex agent take Mrrlin tasks; weak output goes back through multi-model consensus review, and a task closes only with proof (a live URL, a green build or a human sign-off).
-- The harness: an always-on Hermes Agent plus a TypeScript service (Node.js, Hono, SQLite) with leases for parallel agents and idempotency keys, steered from Telegram, one channel per workflow. It runs SEO end to end, directs and produces TikTok videos in Google Flow, handles the helpdesk (refunds and support), posts to social networks, reacts to alerts and ships quick product changes straight from Telegram.
-- Review gates: independent reviewer models score outgoing messages against hard rules before they go out.
+
+### Agent operations harness · built alone (2026 - now)
+
+An always-on agent system that runs the day-to-day operations of ELI and Mrrlin in production, steered from Telegram by text or voice messages, one channel per workflow.
+
+- Handles helpdesk for both products (support and refunds), answers leads (outreach and reply triage), writes SEO content, posts to X and other networks, produces TikTok videos in Google Flow, reacts to alerts and ships quick product changes.
+- Built on Hermes Agent with a TypeScript service that gives parallel agents leases on jobs, plus idempotency keys so a retried action does not run twice.
+- Review gates: reviewer models from other providers score outgoing messages against hard rules before they are sent.
+
+Stack: Hermes Agent, TypeScript, Node.js, Hono, SQLite, Telegram
 
 ## Earlier
 
