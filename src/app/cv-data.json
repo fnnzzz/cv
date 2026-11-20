@@ -73,7 +73,7 @@
         {
           "name": "Senior Frontend Engineer · <img class='company-logo' src='assets/images/xbo-logo.webp' alt='' /><a href='https://xbo.com' target='_blank' rel='noopener noreferrer'>XBO.com</a>, crypto exchange",
           "start": "04/2022",
-          "descr": "Web trading frontend and client area of a crypto exchange: spot, futures and CFDs.",
+          "descr": "Web trading frontend and client area of an award-winning crypto exchange (Best Digital Assets Exchange 2024, Best Crypto Processing Solution 2025): spot, futures and CFDs.",
           "bullets": [
             "Designed the real-time data layer on SignalR/WebSockets: order books, charts, tickers and positions update in under a second.",
             "Kept the UI responsive under high-frequency streams with RxJS-based state management.",
@@ -145,7 +145,7 @@
   "education": {
     "title": "Education & Certifications",
     "lines": [
-      "Computer Engineering, Bachelor's degree (2012 - 2016) · <a href='https://www.credly.com/badges/4986f3f5-3985-4467-9124-e18d26c59404/public_url' target='_blank' rel='noopener noreferrer'>AWS Certified Developer - Associate</a> · <a href='https://www.credly.com/badges/696fcac0-fe76-451c-a155-dba8dfdb6938/public_url' target='_blank' rel='noopener noreferrer'>AWS Certified Solutions Architect - Associate</a>"
+      "Computer Engineering, Bachelor's degree, Donbas State Technical University (2012 - 2016) · <a href='https://www.credly.com/badges/4986f3f5-3985-4467-9124-e18d26c59404/public_url' target='_blank' rel='noopener noreferrer'>AWS Certified Developer - Associate</a> · <a href='https://www.credly.com/badges/696fcac0-fe76-451c-a155-dba8dfdb6938/public_url' target='_blank' rel='noopener noreferrer'>AWS Certified Solutions Architect - Associate</a>"
     ],
     "badges": [
       {
